@@ -1,0 +1,24 @@
+<template functional>
+  <div class="absolute social-media-position">
+    <a href="https://www.instagram.com/misspoppyssoap/" target="_blank">
+      <img
+        src="~/assets/instagram.svg"
+        class="w-10 h-10 text-black fill-current md:w-16 md:h-16 hover:text-gray-800"
+      />
+    </a>
+  </div>
+</template>
+
+<style>
+.social-media-position {
+  right: 20px;
+  top: 20px;
+}
+
+@screen md {
+  .social-media-position {
+    right: 80px;
+    top: 80px;
+  }
+}
+</style>
