@@ -40,14 +40,13 @@ export default {
   );
 }
 
-.title {
+/* .title {
   bottom: 40%;
   text-align: center;
-}
+} */
 
-@screen md {
-  .title {
-    bottom: 50px;
-  }
+.title {
+  bottom: 50px;
+  text-align: center;
 }
 </style>
