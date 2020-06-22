@@ -1,6 +1,6 @@
 <template functional>
   <div class="absolute social-media-position">
-    <a href="https://www.instagram.com/misspoppyssoap/" target="_blank">
+    <a href="https://www.instagram.com/misspoppys/" target="_blank">
       <img
         src="~/assets/instagram.svg"
         class="w-10 h-10 text-black fill-current md:w-16 md:h-16 hover:text-gray-800"
