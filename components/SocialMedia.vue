@@ -1,5 +1,11 @@
 <template functional>
-  <div class="absolute social-media-position">
+  <div class="absolute flex justify-between w-24 md:w-40 social-media-position">
+    <a href="mailto:info@misspoppys.ch">
+      <img
+        src="~/assets/mail.svg"
+        class="w-10 h-10 text-black fill-current md:w-16 md:h-16 hover:text-gray-800"
+      />
+    </a>
     <a href="https://www.instagram.com/misspoppys/" target="_blank">
       <img
         src="~/assets/instagram.svg"
