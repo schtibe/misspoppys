@@ -3,13 +3,13 @@
     <a href="mailto:info@misspoppys.ch">
       <img
         src="~/assets/mail.svg"
-        class="w-10 h-10 text-black fill-current md:w-16 md:h-16 hover:text-gray-800"
+        class="w-10 h-10 fill-current text-green-dark md:w-16 md:h-16 hover:text-gray-800"
       />
     </a>
     <a href="https://www.instagram.com/misspoppys/" target="_blank">
       <img
         src="~/assets/instagram.svg"
-        class="w-10 h-10 text-black fill-current md:w-16 md:h-16 hover:text-gray-800"
+        class="w-10 h-10 fill-current text-green-dark md:w-16 md:h-16 hover:text-gray-800"
       />
     </a>
   </div>

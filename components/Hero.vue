@@ -1,5 +1,5 @@
 <template>
-  <div class="relative background">
+  <div class="relative text-black background">
     <img
       src="~/assets/header_melon.jpg"
       class="object-cover w-full h-screen max-w-none"
@@ -8,12 +8,12 @@
     <logo />
     <social-media />
     <div class="absolute w-full title">
-      <div class="text-4xl md:text-6xl">
-        Handgemachte Seifen aus Bern
-      </div>
-      <div class="text-2xl md:text-4xl">
+      <h1 class="text-4xl md:text-6xl">
+        Miss Poppy's Handmade
+      </h1>
+      <!-- <div class="text-2xl md:text-4xl">
         weitere Infos folgen bald hier
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

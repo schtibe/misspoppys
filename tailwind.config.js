@@ -6,6 +6,18 @@
  */
 module.exports = {
   theme: {
+    extend: {
+      colors: {
+        pink: "#E2C8CE",
+        brown: {
+          dark: "#2B120A",
+          light: "#E5956F"
+        },
+        green: {
+          dark: "#1F2A1B"
+        }
+      }
+    },
     container: {
       center: true
     },
