@@ -1,3 +1,13 @@
 h3 {
   @apply text-2xl;
 }
+
+a {
+  @apply underline;
+  text-decoration-color: theme('colors.pink')
+}
+
+a:hover {
+  @apply no-underline;
+  @apply text-green-dark;
+}
