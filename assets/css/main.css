@@ -15,3 +15,13 @@ a:hover, .btn-link:hover {
   @apply no-underline;
   @apply text-green-dark;
 }
+
+.container {
+  @apply px-4;
+}
+
+@screen md {
+  .container {
+    @apply px-0;
+  }
+}
