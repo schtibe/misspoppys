@@ -19,7 +19,8 @@ module.exports = {
           light: "#E5956F"
         },
         green: {
-          dark: "#1F2A1B"
+          dark: "#242E2A",
+          eucalyptus: "#8DB5A3"
         }
       }
     },

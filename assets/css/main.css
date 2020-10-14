@@ -1,13 +1,17 @@
+body {
+  @apply text-xl;
+}
+
 h3 {
   @apply text-2xl;
 }
 
-a {
+a, .btn-link {
   @apply underline;
   text-decoration-color: theme('colors.pink')
 }
 
-a:hover {
+a:hover, .btn-link:hover {
   @apply no-underline;
   @apply text-green-dark;
 }

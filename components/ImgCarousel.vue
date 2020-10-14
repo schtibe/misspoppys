@@ -11,10 +11,16 @@
         <img src="~/assets/carousel-images/schnitt.jpg" />
       </div>
       <div class="carousel-image">
-        <img src="~/assets/carousel-images/camouflage.jpg" />
+        <img src="~/assets/carousel-images/eukalyptus.jpg" />
       </div>
       <div class="carousel-image">
         <img src="~/assets/carousel-images/granola-block.jpg" />
+      </div>
+      <div class="carousel-image">
+        <img src="~/assets/carousel-images/cupcake.jpg" />
+      </div>
+      <div class="carousel-image">
+        <img src="~/assets/carousel-images/camouflage.jpg" />
       </div>
     </vue-slick-carousel>
   </div>

@@ -2,11 +2,11 @@
   <div class="border-box">
     <hero />
 
-    <title-desc class="mt-24" />
+    <title-desc class="mt-24" @scrollToWhereBuy="scrollToWhereBuy" />
 
     <img-carousel class="mt-24" />
 
-    <where-buy class="mt-24" />
+    <where-buy ref="whereBuy" class="mt-24" />
 
     <footer-section class="mt-24" />
   </div>
@@ -26,6 +26,11 @@ export default {
     ImgCarousel,
     FooterSection,
     WhereBuy
+  },
+  methods: {
+    scrollToWhereBuy() {
+      this.$refs.whereBuy.$el.scrollIntoView({ behavior: "smooth" });
+    }
   }
 };
 </script>

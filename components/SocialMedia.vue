@@ -8,10 +8,10 @@
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
-        stroke-width="2"
+        stroke-width="1.2"
         stroke-linecap="round"
         stroke-linejoin="round"
-        class="w-10 h-10 text-gray-800 stroke-current md:w-16 md:h-16 hover:text-gray-700"
+        class="w-10 h-10 stroke-current text-green-dark md:w-16 md:h-16 hover:text-gray-700"
       >
         <path
           d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
@@ -25,13 +25,13 @@
       class="text-gray-500"
     >
       <svg
-        class="w-10 h-10 text-gray-800 stroke-current md:w-16 md:h-16 hover:text-gray-700"
+        class="w-10 h-10 stroke-current text-green-dark md:w-16 md:h-16 hover:text-gray-700"
         xmlns="http://www.w3.org/2000/svg"
         width="24"
         height="24"
         viewBox="0 0 24 24"
         fill="none"
-        stroke-width="2"
+        stroke-width="1.2"
         stroke-linecap="round"
         stroke-linejoin="round"
       >
