@@ -14,8 +14,8 @@
       </p>
       <p>
         Alle Seifen haben einen hohen Rückfettungsanteil, was dem Austrocknen
-        der Haut entgegen wirkt. Sie sind allesamt nicht für die Hände sondern
-        auch herrvorragend zum Duschen geeignet!
+        der Haut entgegen wirkt. Sie sind allesamt nicht nur für die Hände
+        sondern auch herrvorragend zum Duschen geeignet!
       </p>
 
       <p>
