@@ -23,7 +23,15 @@ export default {
   /*
    ** Global CSS
    */
-  css: ["@/assets/css/main.css"],
+  css: [
+    "@/assets/css/main.css",
+    "vue-slick-carousel/dist/vue-slick-carousel.css",
+    "vue-slick-carousel/dist/vue-slick-carousel-theme.css"
+  ],
+  purgeCSS: {
+    whitelistPatterns: [/^slick/]
+  },
+
   /*
    ** Plugins to load before mounting the App
    */
