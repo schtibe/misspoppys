@@ -1,7 +1,7 @@
 <template>
   <div class="relative text-black background">
     <img
-      src="~/assets/header_melon.jpg"
+      src="~/assets/header_blush.jpg"
       class="object-cover w-full h-screen max-w-none"
     />
     <div class="absolute inset-0 background" />
