@@ -12,7 +12,7 @@
 
         <li class="mt-4">
           <a target="_blank" href="http://plus-minus-shop.ch"
-            >Bald online im plus minus Shop</a
+            >Online im plus minus Shop</a
           >
         </li>
       </ul>
