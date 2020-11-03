@@ -1,6 +1,6 @@
 <template>
   <div class="py-10 bg-pink">
-    <vue-slick-carousel v-bind="settings" class="container">
+    <vue-slick-carousel v-bind="settings" class="md:container">
       <div class="carousel-image">
         <img src="~/assets/carousel-images/pumpkin-spice.jpg" />
       </div>
