@@ -8,6 +8,8 @@
 
     <where-buy ref="whereBuy" class="mt-24" />
 
+    <product-carousel class="mt-24" />
+
     <footer-section class="mt-24" />
   </div>
 </template>
@@ -17,6 +19,7 @@ import Hero from "~/components/Hero.vue";
 import TitleDesc from "~/components/TitleDesc.vue";
 import ImgCarousel from "~/components/ImgCarousel.vue";
 import FooterSection from "~/components/FooterSection.vue";
+import ProductCarousel from "~/components/ProductCarousel.vue";
 import WhereBuy from "~/components/WhereBuy.vue";
 
 export default {
@@ -25,7 +28,8 @@ export default {
     TitleDesc,
     ImgCarousel,
     FooterSection,
-    WhereBuy
+    WhereBuy,
+    ProductCarousel
   },
   methods: {
     scrollToWhereBuy() {

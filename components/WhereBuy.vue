@@ -1,6 +1,6 @@
 <template>
   <div class="container py-16 text-center">
-    <h3>Wo man uns kaufen kann</h3>
+    <h2>Wo man uns kaufen kann</h2>
 
     <div class="mt-10">
       <ul>

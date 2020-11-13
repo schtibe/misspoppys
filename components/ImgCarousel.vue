@@ -1,6 +1,6 @@
 <template>
-  <div class="py-10 bg-pink">
-    <vue-slick-carousel v-bind="settings" class="md:container">
+  <div class="px-10 py-10 bg-pink">
+    <vue-slick-carousel v-bind="settings" class="">
       <div class="carousel-image">
         <img src="~/assets/carousel-images/pumpkin-spice.jpg" />
       </div>
@@ -36,7 +36,7 @@ export default {
       settings: {
         dots: true,
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 4,
         centerMode: true,
         responsive: [
           {
