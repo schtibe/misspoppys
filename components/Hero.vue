@@ -6,7 +6,6 @@
     />
     <div class="absolute inset-0 background" />
     <logo />
-    <social-media />
     <div class="absolute w-full title">
       <h1 class="text-4xl md:text-6xl">
         Miss Poppy's Handmade
@@ -20,12 +19,10 @@
 
 <script>
 import Logo from "~/components/Logo.vue";
-import SocialMedia from "~/components/SocialMedia.vue";
 
 export default {
   components: {
-    Logo,
-    SocialMedia
+    Logo
   }
 };
 </script>
