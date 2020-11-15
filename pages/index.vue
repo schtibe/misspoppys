@@ -8,7 +8,7 @@
 
     <where-buy ref="whereBuy" class="mt-24" />
 
-    <product-carousel class="mt-24" />
+    <product-carousel class="mt-16" />
 
     <footer-section class="mt-24" />
   </div>
