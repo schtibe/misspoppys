@@ -1,6 +1,7 @@
 <template>
   <div class="relative text-black background">
     <img
+      ref="heroImage"
       src="~/assets/header_blush.jpg"
       class="object-cover w-full h-screen max-w-none"
     />
@@ -23,6 +24,10 @@ import Logo from "~/components/Logo.vue";
 export default {
   components: {
     Logo
+  },
+  mounted() {
+    const heroImage = this.$refs.heroImage;
+    heroImage.style.height = window.innerHeight;
   }
 };
 </script>
