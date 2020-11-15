@@ -45,7 +45,7 @@ export default {
           scent: "Honig und Hafer"
         },
         {
-          title: "Eukalypta",
+          title: "Eucalypta",
           image: require("~/assets/products/eukalypta.jpg"),
           scent: "Eukalyptus"
         },
