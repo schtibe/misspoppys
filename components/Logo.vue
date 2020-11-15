@@ -7,8 +7,8 @@
 
 <style>
 .logo-position {
-  left: 20px;
-  top: 20px;
+  left: calc(50% - 64px);
+  top: 30px;
 }
 
 @screen md {

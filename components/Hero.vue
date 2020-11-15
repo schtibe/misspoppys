@@ -11,9 +11,6 @@
       <h1 class="text-4xl md:text-6xl">
         Miss Poppy's Handmade
       </h1>
-      <!-- <div class="text-2xl md:text-4xl">
-        weitere Infos folgen bald hier
-      </div> -->
     </div>
   </div>
 </template>
@@ -48,7 +45,7 @@ export default {
 } */
 
 .title {
-  bottom: 40px;
+  bottom: 100px;
   text-align: center;
 }
 </style>
