@@ -1,6 +1,6 @@
 <template functional>
-  <div class="absolute flex justify-between w-24 md:w-40 social-media-position">
-    <a href="mailto:info@misspoppys.ch">
+  <div class="flex justify-between w-24 md:w-40 social-media-position">
+    <a href="mailto:info@misspoppys.ch" title="Schicke uns ein Email">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -23,6 +23,7 @@
       href="https://www.instagram.com/misspoppys/"
       target="_blank"
       class="text-gray-500"
+      title="Finde uns auf Instagram"
     >
       <svg
         class="w-10 h-10 stroke-current text-green-dark md:w-16 md:h-16 hover:text-gray-700"
