@@ -1,5 +1,5 @@
 <template functional>
-  <div class="flex justify-between w-24 md:w-40 social-media-position">
+  <div class="flex justify-between w-24 md:w-40">
     <a href="mailto:info@misspoppys.ch" title="Schicke uns ein Email">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -44,16 +44,4 @@
   </div>
 </template>
 
-<style>
-.social-media-position {
-  right: 20px;
-  top: 20px;
-}
-
-@screen md {
-  .social-media-position {
-    right: 80px;
-    top: 80px;
-  }
-}
-</style>
+<style></style>
