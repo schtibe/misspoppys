@@ -36,7 +36,7 @@ export default {
           superfat: "8%"
         },
         {
-          title: "One In a Melon",
+          title: "One in a Melon",
           image: require("~/assets/products/one-in-a-melon.jpg")
         },
         {
@@ -68,6 +68,10 @@ export default {
         {
           title: "Salted Grapefruit",
           image: require("~/assets/products/salted_grapefruit.jpg")
+        },
+        {
+          title: "Camouflage",
+          image: require("~/assets/products/camouflage.jpg")
         }
       ],
       settings: {
