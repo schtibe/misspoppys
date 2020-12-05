@@ -1,26 +1,8 @@
 <template>
   <div class="px-10 py-10 bg-pink">
     <vue-slick-carousel v-bind="settings" class="">
-      <div class="carousel-image">
-        <img src="~/assets/carousel-images/pumpkin-spice.jpg" />
-      </div>
-      <div class="carousel-image">
-        <img src="~/assets/carousel-images/granola.jpg" />
-      </div>
-      <div class="carousel-image">
-        <img src="~/assets/carousel-images/schnitt.jpg" />
-      </div>
-      <div class="carousel-image">
-        <img src="~/assets/carousel-images/eukalyptus.jpg" />
-      </div>
-      <div class="carousel-image">
-        <img src="~/assets/carousel-images/granola-block.jpg" />
-      </div>
-      <div class="carousel-image">
-        <img src="~/assets/carousel-images/cupcake.jpg" />
-      </div>
-      <div class="carousel-image">
-        <img src="~/assets/carousel-images/camouflage.jpg" />
+      <div v-for="image in images" :key="image" class="carousel-image">
+        <img :src="image" />
       </div>
     </vue-slick-carousel>
   </div>
@@ -33,6 +15,15 @@ export default {
   components: { VueSlickCarousel },
   data() {
     return {
+      images: [
+        require("~/assets/carousel-images/pumpkin-spice.jpg"),
+        require("~/assets/carousel-images/granola.jpg"),
+        require("~/assets/carousel-images/box.jpg"),
+        require("~/assets/carousel-images/schnitt.jpg"),
+        require("~/assets/carousel-images/eukalyptus.jpg"),
+        require("~/assets/carousel-images/granola-block.jpg"),
+        require("~/assets/carousel-images/cupcake.jpg")
+      ],
       settings: {
         dots: true,
         infinite: true,
