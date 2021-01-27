@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container py-16">
     <div class="m-auto text-center">
       <h2 class="text-2xl md:text-4xl">einzigartige Seifen aus Bern</h2>
 
