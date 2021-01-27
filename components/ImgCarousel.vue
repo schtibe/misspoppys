@@ -34,8 +34,7 @@ export default {
             breakpoint: 768,
             settings: {
               centerMode: false,
-              slidesToShow: 1,
-              arrows: false
+              slidesToShow: 1
             }
           }
         ]
