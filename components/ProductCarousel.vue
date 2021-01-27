@@ -77,15 +77,21 @@ export default {
       settings: {
         dots: false,
         infinite: false,
-        slidesToShow: 4,
+        slidesToShow: 3,
         arrows: true,
+        centerMode: false,
         responsive: [
           {
             breakpoint: 768,
             settings: {
               slidesToShow: 1,
-              arrows: false,
-              centerMode: true
+              arrows: false
+            }
+          },
+          {
+            breakpoint: 1000,
+            settings: {
+              slidesToShow: 2
             }
           }
         ]
