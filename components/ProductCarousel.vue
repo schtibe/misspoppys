@@ -23,9 +23,11 @@
 
 <script>
 import VueSlickCarousel from "vue-slick-carousel";
+import NoseIcon from "./NoseIcon";
+import DropIcon from "./DropIcon";
 
 export default {
-  components: { VueSlickCarousel },
+  components: { VueSlickCarousel, NoseIcon, DropIcon },
   data() {
     return {
       products: [
@@ -59,8 +61,16 @@ export default {
           image: require("~/assets/products/neroli.jpg")
         },
         {
+          title: "Fresh Linen",
+          image: require("~/assets/products/fresh_linen.jpg")
+        },
+        {
           title: "Cherry Flower Power",
           image: require("~/assets/products/cherry_flower_power.jpg")
+        },
+        {
+          title: "Juciy Lavender",
+          image: require("~/assets/products/juicy_lavender.jpg")
         },
         // {
         //   title: "Christmas Spice",
@@ -73,14 +83,6 @@ export default {
         {
           title: "Camouflage",
           image: require("~/assets/products/camouflage.jpg")
-        },
-        {
-          title: "Fresh Linen",
-          image: require("~/assets/products/fresh_linen.jpg")
-        },
-        {
-          title: "Juciy Lavender",
-          image: require("~/assets/products/juicy_lavender.jpg")
         }
       ],
       settings: {
