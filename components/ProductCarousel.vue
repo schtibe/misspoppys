@@ -14,7 +14,7 @@
         <div class="mb-4">
           <h3>{{ product.title }}</h3>
         </div>
-        <!-- <div class="desc">Duft: {{ product.scent }}</div>
+        <!-- <div class="desc">Duftnote: {{ product.scent }}</div>
         <div class="desc">Rückfettungsanteil: {{ product.superfat }}</div> -->
       </div>
     </vue-slick-carousel>
@@ -37,7 +37,8 @@ export default {
         },
         {
           title: "One in a Melon",
-          image: require("~/assets/products/one-in-a-melon.jpg")
+          image: require("~/assets/products/one-in-a-melon.jpg"),
+          scent: "Melone"
         },
         {
           title: "Granola",
@@ -61,10 +62,10 @@ export default {
           title: "Cherry Flower Power",
           image: require("~/assets/products/cherry_flower_power.jpg")
         },
-        {
-          title: "Christmas Spice",
-          image: require("~/assets/products/christmas_spice.jpg")
-        },
+        // {
+        //   title: "Christmas Spice",
+        //   image: require("~/assets/products/christmas_spice.jpg")
+        // },
         {
           title: "Salted Grapefruit",
           image: require("~/assets/products/salted_grapefruit.jpg")
@@ -72,6 +73,14 @@ export default {
         {
           title: "Camouflage",
           image: require("~/assets/products/camouflage.jpg")
+        },
+        {
+          title: "Fresh Linen",
+          image: require("~/assets/products/fresh_linen.jpg")
+        },
+        {
+          title: "Juciy Lavender",
+          image: require("~/assets/products/juicy_lavender.jpg")
         }
       ],
       settings: {
