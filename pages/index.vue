@@ -10,6 +10,8 @@
 
     <product-carousel class="mt-24" />
 
+    <branding class="mt-24" />
+
     <footer-section class="mt-24" />
   </div>
 </template>
@@ -21,6 +23,7 @@ import ImgCarousel from "~/components/ImgCarousel.vue";
 import FooterSection from "~/components/FooterSection.vue";
 import ProductCarousel from "~/components/ProductCarousel.vue";
 import WhereBuy from "~/components/WhereBuy.vue";
+import Branding from "~/components/Branding.vue";
 
 export default {
   components: {
@@ -29,7 +32,8 @@ export default {
     ImgCarousel,
     FooterSection,
     WhereBuy,
-    ProductCarousel
+    ProductCarousel,
+    Branding
   },
   methods: {
     scrollToWhereBuy() {
