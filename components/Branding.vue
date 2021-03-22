@@ -1,11 +1,15 @@
 <template>
   <div class="container flex justify-evenly py-16">
     <div class="flex items-center justify-center w-1/2">
-      <img src="~/assets/branding.jpg" class="w-2/3" />
+      <img
+        src="~/assets/soap-branding.jpg"
+        class="w-2/3"
+        alt="Individuell nach Kundenwunsch angepasste Seife"
+      />
     </div>
     <div class="w-1/2">
       <h2>Branding</h2>
-      <div class="mt-4">
+      <div class="mt-8">
         <p>
           Sucht deine Firma ein Kunden- oder Mitarbeitergeschenk?
         </p>
