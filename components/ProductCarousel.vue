@@ -10,7 +10,7 @@
         :key="product.title"
         class="carousel-image"
       >
-        <img :src="product.image" />
+        <img :src="product.image" :alt="product.alt" />
         <div class="mb-4">
           <h3>{{ product.title }}</h3>
         </div>
@@ -23,11 +23,11 @@
 
 <script>
 import VueSlickCarousel from "vue-slick-carousel";
-import NoseIcon from "./NoseIcon";
-import DropIcon from "./DropIcon";
+// import NoseIcon from "./NoseIcon";
+// import DropIcon from "./DropIcon";
 
 export default {
-  components: { VueSlickCarousel, NoseIcon, DropIcon },
+  components: { VueSlickCarousel /*, NoseIcon, DropIcon */ },
   data() {
     return {
       products: [
@@ -35,42 +35,52 @@ export default {
           title: "Pumpkin Spice Latte",
           image: require("~/assets/products/pumpkin_spice_latte.jpg"),
           scent: "Pumpkin Spice Latte Kaffee",
-          superfat: "8%"
+          alt:
+            "Handgemachte Pumpkin Spice Latte Seife mit Duft nach Pumpkin Spice Latte"
         },
         {
           title: "One in a Melon",
           image: require("~/assets/products/one-in-a-melon.jpg"),
-          scent: "Melone"
+          scent: "Melone",
+          alt: 'Handgemachte Seife "One in a Melon" mit Duft nach Melone'
         },
         {
           title: "Granola",
           image: require("~/assets/products/granola.jpg"),
-          scent: "Honig und Hafer"
+          scent: "Honig und Hafer",
+          alt: 'Handgemachte Seife "Granola" mit Duft nach Honig und Hafer'
         },
         {
           title: "Eucalypta",
           image: require("~/assets/products/eukalypta.jpg"),
-          scent: "Eukalyptus"
+          scent: "Eukalyptus",
+          alt:
+            'Handgemachte Seife "Eukalypta" mit Duft nach frischem Eukalyptus'
         },
         {
           title: "Blush",
-          image: require("~/assets/products/blush.jpg")
+          image: require("~/assets/products/blush.jpg"),
+          alt: 'Handgemachte Seife "Blush"'
         },
         {
           title: "Neroli",
-          image: require("~/assets/products/neroli.jpg")
+          image: require("~/assets/products/neroli.jpg"),
+          alt: 'Handgemachte Seife "Neroli"'
         },
         {
           title: "Fresh Linen",
-          image: require("~/assets/products/fresh_linen.jpg")
+          image: require("~/assets/products/fresh_linen.jpg"),
+          alt: 'Handgemachte Seife "Fresh Linen" mit Duft wie frische Wäsche'
         },
         {
           title: "Cherry Flower Power",
-          image: require("~/assets/products/cherry_flower_power.jpg")
+          image: require("~/assets/products/cherry_flower_power.jpg"),
+          alt: 'Handgemachte Seife "Cherry Flower Power" mit Duft nach Kirschen'
         },
         {
-          title: "Juciy Lavender",
-          image: require("~/assets/products/juicy_lavender.jpg")
+          title: "Juicy Lavender",
+          image: require("~/assets/products/juicy_lavender.jpg"),
+          alt: 'Handgemachte Seife "Juicy Lavender" mit Duft nach Lavendel'
         },
         // {
         //   title: "Christmas Spice",
@@ -78,11 +88,13 @@ export default {
         // },
         {
           title: "Salted Grapefruit",
-          image: require("~/assets/products/salted_grapefruit.jpg")
+          image: require("~/assets/products/salted_grapefruit.jpg"),
+          alt: 'Handgemachte Seife "Salted Grapefruit" mit Duft nach Grapefruit'
         },
         {
           title: "Camouflage",
-          image: require("~/assets/products/camouflage.jpg")
+          image: require("~/assets/products/camouflage.jpg"),
+          alt: 'Handgemachte Seife "Camouflage"'
         }
       ],
       settings: {
