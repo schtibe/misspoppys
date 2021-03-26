@@ -5,17 +5,21 @@
     </div>
 
     <vue-slick-carousel v-bind="settings" class="mt-12">
-      <div
-        v-for="product in products"
-        :key="product.title"
-        class="carousel-image"
-      >
-        <img :src="product.image" :alt="product.alt" />
-        <div class="mb-4">
-          <h3>{{ product.title }}</h3>
+      <div v-for="product in products" :key="product.title" class="px-4">
+        <div class=" flex flex-col justify-center items-center">
+          <img :src="product.image" :alt="product.alt" />
+          <h3 class="mb-4 mt-4">{{ product.title }}</h3>
+          <div class="text-lg w-full">
+            <div class="desc flex justify-left items-center">
+              <svg-icon name="nose" class="w-6 h-6" />
+              <div class="ml-2">{{ product.scent }}</div>
+            </div>
+            <div class="desc flex justify-left items-center mt-2">
+              <svg-icon name="drop" class="w-6 h-6" />
+              <div class="ml-2">{{ product.superfat }}</div>
+            </div>
+          </div>
         </div>
-        <!-- <div class="desc">Duftnote: {{ product.scent }}</div>
-        <div class="desc">Rückfettungsanteil: {{ product.superfat }}</div> -->
       </div>
     </vue-slick-carousel>
   </div>
@@ -23,11 +27,9 @@
 
 <script>
 import VueSlickCarousel from "vue-slick-carousel";
-// import NoseIcon from "./NoseIcon";
-// import DropIcon from "./DropIcon";
 
 export default {
-  components: { VueSlickCarousel /*, NoseIcon, DropIcon */ },
+  components: { VueSlickCarousel },
   data() {
     return {
       products: [
@@ -35,6 +37,7 @@ export default {
           title: "Pumpkin Spice Latte",
           image: require("~/assets/products/pumpkin_spice_latte.jpg"),
           scent: "Pumpkin Spice Latte Kaffee",
+          superfat: "8%",
           alt:
             "Handgemachte Pumpkin Spice Latte Seife mit Duft nach Pumpkin Spice Latte"
         },
@@ -123,19 +126,4 @@ export default {
 };
 </script>
 
-<style scoped lang="postcss">
-.carousel-image {
-  @apply w-48;
-  @apply px-4;
-  @apply flex flex-col;
-  @apply text-center;
-
-  & :nth-child(2) {
-    @apply mt-4;
-  }
-}
-
-.desc {
-  @apply text-lg;
-}
-</style>
+<style scoped lang="postcss"></style>
