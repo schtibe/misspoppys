@@ -1,7 +1,7 @@
 <template>
   <div class="container py-16">
     <div class="m-auto text-center">
-      <h2 class="text-2xl md:text-4xl">einzigartige Seifen aus Bern</h2>
+      <h2 class="">einzigartige Seifen aus Bern</h2>
 
       <div class="mt-4">Willkommen bei Miss Poppy's Handmade</div>
       <p class="mb-2">
