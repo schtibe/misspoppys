@@ -2,17 +2,17 @@
   <div class="border-box">
     <hero />
 
-    <title-desc class="mt-24" @scrollToWhereBuy="scrollToWhereBuy" />
+    <title-desc class="md:mt-24" @scrollToWhereBuy="scrollToWhereBuy" />
 
-    <img-carousel class="mt-24" />
+    <img-carousel class="md:mt-24" />
 
-    <where-buy ref="whereBuy" class="mt-24" />
+    <where-buy ref="whereBuy" class="md:mt-24" />
 
-    <product-carousel class="mt-24" />
+    <product-carousel class="md:mt-24" />
 
-    <branding class="mt-24" />
+    <branding class="md:mt-24" />
 
-    <footer-section class="mt-24" />
+    <footer-section class="md:mt-24" />
   </div>
 </template>
 

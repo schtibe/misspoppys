@@ -1,5 +1,5 @@
 <template>
-  <div class="px-10 py-16 bg-green-eucalyptus">
+  <div class="px-10 md:py-16 py-8 bg-green-eucalyptus">
     <div class="container text-center">
       <h2>Sortiment</h2>
     </div>
@@ -8,7 +8,7 @@
       <div v-for="product in products" :key="product.title" class="px-4">
         <div class=" flex flex-col justify-center items-center">
           <img :src="product.image" :alt="product.alt" />
-          <h3 class="mb-4 mt-4">{{ product.title }}</h3>
+          <h3 class="md:mb-4 mt-4">{{ product.title }}</h3>
           <product-details class="w-full pl-4" :product="product" />
         </div>
       </div>
