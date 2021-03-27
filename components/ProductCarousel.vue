@@ -9,7 +9,7 @@
         <div class=" flex flex-col justify-center items-center">
           <img :src="product.image" :alt="product.alt" />
           <h3 class="md:mb-4 mt-4">{{ product.title }}</h3>
-          <product-details class="w-full pl-4" :product="product" />
+          <product-details class="w-full md:pl-4" :product="product" />
         </div>
       </div>
     </vue-slick-carousel>
