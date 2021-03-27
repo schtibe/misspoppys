@@ -2,7 +2,7 @@
   <div class="container flex justify-evenly py-16">
     <div class="flex items-center justify-center w-1/2">
       <img
-        src="~/assets/soap-branding.jpg"
+        src="~/assets/individuelle-seife-nach-kundenwunsch.jpg"
         class="w-2/3"
         alt="Individuell nach Kundenwunsch angepasste Seife"
       />
