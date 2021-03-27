@@ -55,7 +55,7 @@ export default {
           hid: "keywords",
           name: "keywords",
           content:
-            "Seifen,Soap,Duschen,Händewaschen,Bern,handgemacht,natürlich,vegan,Kosmetik,handmade"
+            "Seifen,Soap,Duschen,Händewaschen,Bern,handgemacht,natürlich,vegan,Kosmetik,handmade,cruelty free"
         }
       ]
     };
