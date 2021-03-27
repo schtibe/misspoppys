@@ -1,13 +1,17 @@
 <template>
-  <div class="container flex justify-evenly py-16">
-    <div class="flex items-center justify-center w-1/2">
+  <div
+    class="container flex flex-col md:flex-row items-center justify-evenly py-16"
+  >
+    <div
+      class="flex items-center justify-center md:w-1/2 order-2 md:order-1 mt-10 md:mt-0"
+    >
       <img
         src="~/assets/individuelle-seife-nach-kundenwunsch.jpg"
         class="w-2/3"
         alt="Individuell nach Kundenwunsch angepasste Seife"
       />
     </div>
-    <div class="w-1/2">
+    <div class="md:w-1/2 order-1 md:order-2 text-center md:text-left">
       <h2>Branding</h2>
       <div class="mt-8">
         <p>
