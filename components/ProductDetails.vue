@@ -23,9 +23,13 @@ export default {
   },
   computed: {
     properties() {
-      const keys = ["scent", "superfat"];
-      const icons = { scent: "nose-alt", superfat: "drop" };
-      const titles = { scent: "Duftnoten", superfat: "Rückfettungsanteil" };
+      const keys = ["scent", "superfat", "vegan"];
+      const icons = { scent: "nose-alt", superfat: "drop", vegan: "vegan" };
+      const titles = {
+        scent: "Duftnoten",
+        superfat: "Rückfettungsanteil",
+        vegan: "Vegane Zutaten"
+      };
 
       return keys
         .filter((key) => {

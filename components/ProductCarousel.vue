@@ -5,7 +5,7 @@
     </div>
 
     <vue-slick-carousel v-bind="settings" class="mt-12">
-      <div v-for="product in soaps" :key="product.title" class="px-4">
+      <div v-for="product in products" :key="product.title" class="px-4">
         <div class=" flex flex-col justify-center items-center">
           <img :src="product.image" :alt="product.alt" />
           <h3 class="mb-4 mt-4">{{ product.title }}</h3>
@@ -32,13 +32,15 @@ export default {
           superfat: "8%",
           alt:
             "Handgemachte Pumpkin Spice Latte Seife mit Duftnote Kürbis, Zimt, Gewürz und Nuss",
+          vegan: "Vegan"
         },
         {
           title: "One in a Melon",
           image: require("~/assets/soaps/handgemachte-seife-one-in-a-melon.jpg"),
           scent: "Wassermelone",
           alt: 'Handgemachte Seife "One in a Melon" mit Duft nach Wassermelone',
-          superfat: "7%"
+          superfat: "7%",
+          vegan: "Vegan"
         },
         {
           title: "Granola",
@@ -46,7 +48,8 @@ export default {
           scent: "Hafer, Milch, Honig und Mandeln",
           alt:
             'Handgemachte Seife "Granola" mit Duft nach Hafer, Milch, Honig und Mandeln',
-          superfat: "7%"
+          superfat: "7%",
+          vegan: "Vegan"
         },
         {
           title: "Eucalypta",
@@ -54,7 +57,8 @@ export default {
           scent: "Eukalyptus und Rosmarin, kühlend und erfrischend",
           alt:
             'Handgemachte Seife "Eukalypta" mit Duft nach erfrischenden und kühlendem Eukalyptus und Rosmarin',
-          superfat: "7%"
+          superfat: "7%",
+          vegan: "Vegan"
         },
         {
           title: "Blush",
@@ -62,14 +66,16 @@ export default {
           alt:
             'Handgemachte Seife "Blush" mit Duftnote Blumig, Vanille, Kokosnuss, Süss',
           scent: "Blumig, Vanille, Kokosnuss, Süss",
-          superfat: "5%"
+          superfat: "5%",
+          vegetarian: "Vegetarian"
         },
         {
           title: "Neroli",
           image: require("~/assets/soaps/handgemachte-seife-neroli.jpg"),
           alt: 'Handgemachte Seife "Neroli" mit Duft nach Orangenblüten',
           scent: "Orangenblüten, herb und süss zugleich",
-          superfat: "6%"
+          superfat: "6%",
+          vegan: "Vegan"
         },
         {
           title: "Fresh Linen",
@@ -77,7 +83,8 @@ export default {
           alt:
             'Handgemachte Seife "Fresh Linen" mit Duft nach frischer Wäsche, Vanille, Zitrone und Zuckerwatte',
           scent: "Frische Wäsche, Vanille, Zitrone und Zuckerwatte",
-          superfat: "5%"
+          superfat: "5%",
+          vegan: "Vegan"
         },
         {
           title: "Cherry Flower Power",
@@ -85,7 +92,8 @@ export default {
           alt:
             'Handgemachte Seife "Cherry Flower Power" mit Duft nach Kirschblüten',
           scent: "Kirschblüten, blumig",
-          superfat: "6%"
+          superfat: "6%",
+          vegan: "Vegan"
         },
         {
           title: "Juicy Lavender",
@@ -93,7 +101,8 @@ export default {
           alt:
             'Handgemachte Seife "Juicy Lavender" mit Duft nach Lavendel und Zitrone',
           scent: "Lavendel und Zitrone",
-          superfat: "6%"
+          superfat: "6%",
+          vegan: "Vegan"
         },
         // {
         //   title: "Christmas Spice",
@@ -105,7 +114,8 @@ export default {
           alt:
             'Handgemachte Seife "Salted Grapefruit" mit Duft nach Pink Grapefruit',
           scent: "Pink Grapefruit, Ingwer, Pfeffer, frisch",
-          superfat: "8%"
+          superfat: "8%",
+          vegetarian: "Vegetarisch"
         },
         {
           title: "Camouflage",
@@ -113,7 +123,8 @@ export default {
           alt:
             'Handgemachte Seife "Camouflage" mit maskulinem Duft nach Lorbeer, Tannennadel, Bergamotte, Tabak',
           scent: "Lorbeer, Tannennadel, Bergamotte, Tabak, maskulin",
-          superfat: "8%"
+          superfat: "8%",
+          vegan: "Vegan"
         }
       ],
       settings: {
