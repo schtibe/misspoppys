@@ -19,9 +19,13 @@
       </p>
 
       <p>
-        <button class="btn-link" @click="$emit('scrollToWhereBuy')">
-          Überzeuge dich selbst!
-        </button>
+        <a
+          href="#"
+          class="btn-link"
+          @click.prevent="$emit('scrollTo', 'whereBuy')"
+        >
+          Die Seifen sind zur Zeit Online und in einem Berner Laden erhältlich.
+        </a>
       </p>
     </div>
   </div>

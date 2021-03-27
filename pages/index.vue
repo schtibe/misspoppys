@@ -2,7 +2,7 @@
   <div class="border-box">
     <hero />
 
-    <title-desc class="md:mt-24" @scrollToWhereBuy="scrollToWhereBuy" />
+    <title-desc class="md:mt-24" @scrollTo="scrollTo" />
 
     <img-carousel class="md:mt-24" />
 
@@ -36,8 +36,8 @@ export default {
     Branding
   },
   methods: {
-    scrollToWhereBuy() {
-      this.$refs.whereBuy.$el.scrollIntoView({ behavior: "smooth" });
+    scrollTo(el) {
+      this.$refs[el].$el.scrollIntoView({ behavior: "smooth" });
     }
   },
   head() {
