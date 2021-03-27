@@ -3,11 +3,11 @@
     <img
       ref="heroImage"
       srcset="
-        ~/assets/header_blush.jpg       1900w,
-        ~/assets/header_blush-small.jpg 1280w
+        ~/assets/header/handgemachte-seife-aus-bern-blush.jpg       1900w,
+        ~/assets/header/handgemachte-seife-aus-bern-blush-small.jpg 1280w
       "
       sizes="(max-width: 768px) 1280px, 1900px"
-      src="~/assets/header_blush.jpg"
+      src="~/assets/header//handgemachte-seife-aus-bern-blush.jpg"
       class="object-cover w-full h-screen max-w-none"
     />
     <div class="absolute inset-0 background" />
