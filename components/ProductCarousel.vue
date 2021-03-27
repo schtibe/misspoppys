@@ -9,16 +9,7 @@
         <div class=" flex flex-col justify-center items-center">
           <img :src="product.image" :alt="product.alt" />
           <h3 class="mb-4 mt-4">{{ product.title }}</h3>
-          <div class="text-lg w-full">
-            <div class="desc flex justify-left items-center">
-              <svg-icon name="nose" class="w-6 h-6" />
-              <div class="ml-2">{{ product.scent }}</div>
-            </div>
-            <div class="desc flex justify-left items-center mt-2">
-              <svg-icon name="drop" class="w-6 h-6" />
-              <div class="ml-2">{{ product.superfat }}</div>
-            </div>
-          </div>
+          <product-details class="w-full pl-4" :product="product" />
         </div>
       </div>
     </vue-slick-carousel>
@@ -27,63 +18,82 @@
 
 <script>
 import VueSlickCarousel from "vue-slick-carousel";
+import ProductDetails from "./ProductDetails";
 
 export default {
-  components: { VueSlickCarousel },
+  components: { VueSlickCarousel, ProductDetails },
   data() {
     return {
       products: [
         {
           title: "Pumpkin Spice Latte",
           image: require("~/assets/products/pumpkin_spice_latte.jpg"),
-          scent: "Pumpkin Spice Latte Kaffee",
+          scent: "Kürbis, Zimt, Gewürz und Nuss",
           superfat: "8%",
           alt:
-            "Handgemachte Pumpkin Spice Latte Seife mit Duft nach Pumpkin Spice Latte"
+            "Handgemachte Pumpkin Spice Latte Seife mit Duftnote Kürbis, Zimt, Gewürz und Nuss"
         },
         {
           title: "One in a Melon",
           image: require("~/assets/products/one-in-a-melon.jpg"),
-          scent: "Melone",
-          alt: 'Handgemachte Seife "One in a Melon" mit Duft nach Melone'
+          scent: "Wassermelone",
+          alt: 'Handgemachte Seife "One in a Melon" mit Duft nach Wassermelone',
+          superfat: "7%"
         },
         {
           title: "Granola",
           image: require("~/assets/products/granola.jpg"),
-          scent: "Honig und Hafer",
-          alt: 'Handgemachte Seife "Granola" mit Duft nach Honig und Hafer'
+          scent: "Hafer, Milch, Honig und Mandeln",
+          alt:
+            'Handgemachte Seife "Granola" mit Duft nach Hafer, Milch, Honig und Mandeln',
+          superfat: "7%"
         },
         {
           title: "Eucalypta",
           image: require("~/assets/products/eukalypta.jpg"),
-          scent: "Eukalyptus",
+          scent: "Eukalyptus und Rosmarin, kühlend und erfrischend",
           alt:
-            'Handgemachte Seife "Eukalypta" mit Duft nach frischem Eukalyptus'
+            'Handgemachte Seife "Eukalypta" mit Duft nach erfrischenden und kühlendem Eukalyptus und Rosmarin',
+          superfat: "7%"
         },
         {
           title: "Blush",
           image: require("~/assets/products/blush.jpg"),
-          alt: 'Handgemachte Seife "Blush"'
+          alt:
+            'Handgemachte Seife "Blush" mit Duftnote Blumig, Vanille, Kokosnuss, Süss',
+          scent: "Blumig, Vanille, Kokosnuss, Süss",
+          superfat: "5%"
         },
         {
           title: "Neroli",
           image: require("~/assets/products/neroli.jpg"),
-          alt: 'Handgemachte Seife "Neroli"'
+          alt: 'Handgemachte Seife "Neroli" mit Duft nach Orangenblüten',
+          scent: "Orangenblüten, herb und süss zugleich",
+          superfat: "6%"
         },
         {
           title: "Fresh Linen",
           image: require("~/assets/products/fresh_linen.jpg"),
-          alt: 'Handgemachte Seife "Fresh Linen" mit Duft wie frische Wäsche'
+          alt:
+            'Handgemachte Seife "Fresh Linen" mit Duft nach frischer Wäsche, Vanille, Zitrone und Zuckerwatte',
+          scent: "Frische Wäsche, Vanille, Zitrone und Zuckerwatte",
+          superfat: "5%"
         },
         {
           title: "Cherry Flower Power",
           image: require("~/assets/products/cherry_flower_power.jpg"),
-          alt: 'Handgemachte Seife "Cherry Flower Power" mit Duft nach Kirschen'
+          alt:
+            'Handgemachte Seife "Cherry Flower Power" mit Duft nach Kirschblüten',
+          scent: "Kirschblüten, blumig",
+          superfat: "6%"
         },
         {
           title: "Juicy Lavender",
           image: require("~/assets/products/juicy_lavender.jpg"),
-          alt: 'Handgemachte Seife "Juicy Lavender" mit Duft nach Lavendel'
+          alt:
+            'Handgemachte Seife "Juicy Lavender" mit Duft nach Lavendel und Zitrone',
+          scent: "Lavendel und Zitrone",
+          superfat: "6%"
         },
         // {
         //   title: "Christmas Spice",
@@ -92,12 +102,18 @@ export default {
         {
           title: "Salted Grapefruit",
           image: require("~/assets/products/salted_grapefruit.jpg"),
-          alt: 'Handgemachte Seife "Salted Grapefruit" mit Duft nach Grapefruit'
+          alt:
+            'Handgemachte Seife "Salted Grapefruit" mit Duft nach Pink Grapefruit',
+          scent: "Pink Grapefruit, Ingwer, Pfeffer, frisch",
+          superfat: "8%"
         },
         {
           title: "Camouflage",
           image: require("~/assets/products/camouflage.jpg"),
-          alt: 'Handgemachte Seife "Camouflage"'
+          alt:
+            'Handgemachte Seife "Camouflage" mit maskulinem Duft nach Lorbeer, Tannennadel, Bergamotte, Tabak',
+          scent: "Lorbeer, Tannennadel, Bergamotte, Tabak, maskulin",
+          superfat: "8%"
         }
       ],
       settings: {
