@@ -2,6 +2,11 @@
   <div class="relative text-black background">
     <img
       ref="heroImage"
+      srcset="
+        ~/assets/header_blush.jpg       1900w,
+        ~/assets/header_blush-small.jpg 1280w
+      "
+      sizes="(max-width: 768px) 1280px, 1900px"
       src="~/assets/header_blush.jpg"
       class="object-cover w-full h-screen max-w-none"
     />
