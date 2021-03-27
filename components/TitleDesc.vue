@@ -1,6 +1,6 @@
 <template>
   <div class="container py-16">
-    <div class="m-auto text-center">
+    <div class="m-auto text-center px-32">
       <h2 class="">einzigartige Seifen aus Bern</h2>
 
       <div class="mt-4">Willkommen bei Miss Poppy's Handmade</div>
@@ -22,7 +22,6 @@
         <button class="btn-link" @click="$emit('scrollToWhereBuy')">
           Überzeuge dich selbst!
         </button>
-        Weitere Infos werden bald hier noch folgen.
       </p>
     </div>
   </div>

@@ -3,7 +3,7 @@
     <div
       v-for="prop in properties"
       :key="prop.icon"
-      class="desc flex justify-left items-center"
+      class="desc flex justify-left items-center first:mt-0 mt-2"
     >
       <div class="text-gray-800">
         <svg-icon :name="prop.icon" class="w-6 h-6" :title="prop.title" />
