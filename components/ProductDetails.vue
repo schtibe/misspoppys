@@ -23,12 +23,18 @@ export default {
   },
   computed: {
     properties() {
-      const keys = ["scent", "superfat", "vegan"];
-      const icons = { scent: "nose-alt", superfat: "drop", vegan: "vegan" };
+      const keys = ["scent", "superfat", "vegan", "info"];
+      const icons = {
+        scent: "nose-alt",
+        superfat: "drop",
+        vegan: "vegan",
+        info: "specials"
+      };
       const titles = {
         scent: "Duftnoten",
         superfat: "Rückfettungsanteil",
-        vegan: "Vegane Zutaten"
+        vegan: "Vegane Zutaten",
+        info: "Besonderheiten"
       };
 
       return keys
