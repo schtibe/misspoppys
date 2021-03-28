@@ -24,7 +24,8 @@
           class="btn-link"
           @click.prevent="$emit('scrollTo', 'whereBuy')"
         >
-          Die Seifen sind zur Zeit Online und in einem Berner Laden erhältlich.
+          Die Seifen sind zur Zeit Online und bei plus minus Lädeli in Bern
+          erhältlich.
         </a>
       </p>
     </div>

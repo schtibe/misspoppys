@@ -19,7 +19,7 @@
     </div>
 
     <div class="mt-12">
-      Gerne verkaufen wir die Seifen auch in deinem Laden!<br />
+      Gerne verkaufen wir unsere Seifen auch in deinem Laden!<br />
       Bitte nimm doch
       <a href="mailto:info@misspoppys.ch" title="Kontakt Email"
         >Kontakt mit uns auf</a
