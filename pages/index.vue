@@ -49,13 +49,13 @@ export default {
           hid: "description",
           name: "description",
           content:
-            "Miss Poppy's Handmade sind handgemachte Seifen auf natürlicher Basis hergestellt in Bern"
+            "Miss Poppy's Handmade Seifen sind allesamt handgemacht, mit natürlichen Zutaten, in Bern"
         },
         {
           hid: "keywords",
           name: "keywords",
           content:
-            "Seifen,Soap,Duschen,Händewaschen,Bern,handgemacht,natürlich,vegan,Kosmetik,handmade,cruelty free"
+            "Seifen,Duschen,Händewaschen,Bern,handgemacht,natürlich,vegan,Kosmetik,handmade,cruelty free,lokal"
         }
       ]
     };
