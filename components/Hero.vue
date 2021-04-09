@@ -9,6 +9,7 @@
       sizes="(max-width: 768px) 1280px, 1900px"
       src="~/assets/header//handgemachte-seife-aus-bern-blush.jpg"
       class="object-cover w-full h-screen max-w-none"
+      alt="Handgemachte Seife aus Bern"
     />
     <div class="absolute inset-0 background" />
     <logo />
