@@ -42,22 +42,8 @@ export default {
   },
   head() {
     return {
-      title: "Miss Poppy's Handmade - natürliche, handgemachte Seifen aus Bern",
+      title: "Miss Poppy's Handmade - natürliche, handgemachte Seifen aus Bern"
       // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-      meta: [
-        {
-          hid: "description",
-          name: "description",
-          content:
-            "Miss Poppy's Handmade Seifen sind allesamt handgemacht, mit natürlichen Zutaten, in Bern"
-        },
-        {
-          hid: "keywords",
-          name: "keywords",
-          content:
-            "Seifen,Duschen,Händewaschen,Bern,handgemacht,natürlich,vegan,Kosmetik,handmade,cruelty free,lokal"
-        }
-      ]
     };
   }
 };
