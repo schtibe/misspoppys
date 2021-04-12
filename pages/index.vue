@@ -42,7 +42,7 @@ export default {
   },
   head() {
     return {
-      title: "Miss Poppy's Handmade - natürliche, handgemachte Seifen aus Bern"
+      title: "Miss Poppy's - handgemachte Seifen aus Bern"
       // hid is used as unique identifier. Do not use `vmid` for it as it will not work
     };
   }

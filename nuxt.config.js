@@ -11,8 +11,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content:
-          "Miss Poppy's Handmade sind handgemachte Seifen auf natürlicher Basis hergestellt in Bern"
+        content: "Handgemachte Seifen auf natürlicher Basis hergestellt in Bern"
       },
       {
         hid: "keywords",
