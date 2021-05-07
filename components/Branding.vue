@@ -8,23 +8,25 @@
       />
     </template>
     <template v-slot:text>
-      <h2>Branding</h2>
-      <div class="mt-8">
-        <p>
-          Sucht deine Firma ein Kunden- oder Mitarbeitergeschenk?
-        </p>
-        <p class="mt-2">
-          Gerne stellt Misspoppy's Handmade auf Kundenwunsch individuell
-          angepasste Signaturseifen her. Dabei können verschiedenste Aspekte der
-          Seife, wie z.B. Duft, Farben und Label individuell angepasst werden.
-          Ebenso möglich ist die Erstellung eines indvidiuellen Stempels, um
-          z.B. das Firmenlogo in der Seife eingraviert zu haben.
-        </p>
-        <p class="mt-2">
-          Bei Interesse kannst du dich gerne unter
-          <a href="mailto:info@misspoppys.ch">info@misspoppys.ch</a> melden!
-        </p>
-      </div>
+      <section>
+        <h1>Branding</h1>
+        <div class="mt-8">
+          <p>
+            Sucht deine Firma ein Kunden- oder Mitarbeitergeschenk?
+          </p>
+          <p class="mt-2">
+            Gerne stellt Misspoppy's Handmade auf Kundenwunsch individuell
+            angepasste Signaturseifen her. Dabei können verschiedenste Aspekte
+            der Seife, wie z.B. Duft, Farben und Label individuell angepasst
+            werden. Ebenso möglich ist die Erstellung eines indvidiuellen
+            Stempels, um z.B. das Firmenlogo in der Seife eingraviert zu haben.
+          </p>
+          <p class="mt-2">
+            Bei Interesse kannst du dich gerne unter
+            <a href="mailto:info@misspoppys.ch">info@misspoppys.ch</a> melden!
+          </p>
+        </div>
+      </section>
     </template>
   </left-right>
 </template>

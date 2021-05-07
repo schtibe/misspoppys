@@ -1,6 +1,6 @@
 <template>
-  <div class="container py-16 text-center">
-    <h2>Wo man uns kaufen kann</h2>
+  <section class="container py-16 text-center">
+    <h1>Wo man uns kaufen kann</h1>
 
     <div class="mt-10">
       <ul>
@@ -25,5 +25,5 @@
         >Kontakt mit uns auf</a
       >
     </div>
-  </div>
+  </section>
 </template>

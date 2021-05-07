@@ -14,9 +14,9 @@
     <div class="absolute inset-0 background" />
     <logo />
     <div class="absolute w-full title">
-      <h1 class="text-4xl md:text-6xl">
+      <div class="text-4xl md:text-6xl">
         Miss Poppy's Handmade
-      </h1>
+      </div>
     </div>
   </div>
 </template>

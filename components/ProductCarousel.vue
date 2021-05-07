@@ -1,7 +1,7 @@
 <template>
   <div class="px-10 md:py-16 py-8 bg-green-eucalyptus">
     <div class="container text-center">
-      <h2>Sortiment</h2>
+      <h1>Sortiment</h1>
     </div>
 
     <vue-slick-carousel v-bind="settings" class="mt-12">
