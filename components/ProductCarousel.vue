@@ -136,7 +136,7 @@ export default {
       settings: {
         dots: false,
         infinite: false,
-        slidesToShow: 3,
+        slidesToShow: 5,
         arrows: true,
         centerMode: false,
         responsive: [
@@ -150,6 +150,12 @@ export default {
             breakpoint: 1000,
             settings: {
               slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 1280,
+            settings: {
+              slidesToShow: 3
             }
           }
         ]
