@@ -5,8 +5,9 @@
 
       <!-- <div class="mt-4">Willkommen bei Miss Poppy's Handmade</div> -->
       <p class="mb-2">
-        Miss Poppy's Seifen sind gut für das Wohlbefinden deiner Haut, duften
-        himmlisch und sind allesamt in Bern handgemacht.
+        Miss Poppy's ist eine Seifenmanufaktur aus Bern. Miss Poppy's Seifen
+        sind gut für das Wohlbefinden deiner Haut, duften himmlisch, sind
+        allesamt handgemacht und für den täglichen Gebrauch geeignet.
       </p>
 
       <p class="pt-2">
@@ -17,8 +18,10 @@
 
       <p>
         Alle Seifen haben einen hohen Rückfettungsanteil, was dem Austrocknen
-        der Haut entgegen wirkt. Sie sind allesamt nicht nur für die Hände
-        sondern auch herrvorragend zum Duschen geeignet!
+        der Haut entgegen wirkt und somit eine pflegende Wirkung erhalten. Sie
+        sind allesamt nicht nur für die Hände sondern auch herrvorragend zum
+        Duschen geeignet!
+        >
       </p>
 
       <p>
