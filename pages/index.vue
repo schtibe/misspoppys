@@ -15,7 +15,7 @@
 
       <branding ref="branding" class="md:mt-24" />
 
-      <properties ref="properties" class="md:mt-24" />
+      <!-- <properties ref="properties" class="md:mt-24" /> -->
     </main>
 
     <footer>
@@ -41,8 +41,8 @@ export default {
     FooterSection,
     WhereBuy,
     ProductCarousel,
-    Branding,
-    Properties
+    Branding
+    // Properties
   },
   methods: {
     scrollTo(el) {
