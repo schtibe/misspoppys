@@ -11,9 +11,9 @@
 
       <where-buy ref="whereBuy" class="md:mt-24" />
 
-      <product-carousel class="md:mt-24" />
+      <product-carousel ref="products" class="md:mt-24" />
 
-      <branding class="md:mt-24" />
+      <branding ref="branding" class="md:mt-24" />
 
       <properties ref="properties" class="md:mt-24" />
     </main>

@@ -11,13 +11,30 @@
 
       <p class="pt-2">
         Die Seifen enthalten kein Palmöl und keine unnötigen Zusatzstoffe wie
-        Stabilisatoren oder Weichmacher.
+        Stabilisatoren oder Weichmacher und sind Plastikfrei verpackt. Viele der
+        verwendeten Inhaltsstoffe sind zudem aus biologischem Abbau.
       </p>
 
       <p>
         Alle Seifen haben einen hohen Rückfettungsanteil, was dem Austrocknen
         der Haut entgegen wirkt. Sie sind allesamt nicht nur für die Hände
         sondern auch herrvorragend zum Duschen geeignet!
+      </p>
+
+      <p>
+        Nebst dem
+        <a
+          href="#"
+          class="btn-link"
+          @click.prevent="$emit('scrollTo', 'products')"
+        >
+          saisonalen Sortiment</a
+        >
+        können bei Misspoppy's auf Kundenwunsch auch
+        <a href="#" @click.prevent="$emit('scrollTo', 'branding')"
+          >individuell angepasste Seifen</a
+        >
+        bestellt werden.
       </p>
 
       <p>
