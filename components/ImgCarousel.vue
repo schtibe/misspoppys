@@ -1,7 +1,7 @@
 <template>
   <div class="px-10 py-10 bg-pink">
     <vue-slick-carousel v-bind="settings" class="">
-      <div v-for="image in images" :key="image" class="carousel-image">
+      <div v-for="image in images" :key="image.src" class="carousel-image">
         <img :src="image.src" :alt="image.alt" />
       </div>
     </vue-slick-carousel>
