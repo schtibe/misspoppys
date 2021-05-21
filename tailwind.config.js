@@ -22,7 +22,10 @@ module.exports = {
           dark: "#242E2A",
           eucalyptus: "#8DB5A3"
         }
-      }
+      },
+      maxWidth: (theme) => ({
+        ...theme("spacing")
+      })
     },
     container: {
       center: true
