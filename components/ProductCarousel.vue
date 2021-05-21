@@ -8,7 +8,7 @@
       <div v-for="product in products" :key="product.title" class="px-4">
         <div class=" flex flex-col justify-center items-center">
           <img :src="product.image" :alt="product.alt" />
-          <h3 class="md:mb-4 mt-4">{{ product.title }}</h3>
+          <h2 class="md:mb-4 mt-4">{{ product.title }}</h2>
           <product-details class="w-full md:pl-4" :product="product" />
         </div>
       </div>

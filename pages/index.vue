@@ -1,18 +1,26 @@
 <template>
   <div class="border-box">
-    <hero />
+    <header>
+      <hero />
+    </header>
 
-    <title-desc class="md:mt-24" @scrollTo="scrollTo" />
+    <main>
+      <title-desc class="md:mt-24" @scrollTo="scrollTo" />
 
-    <img-carousel class="md:mt-24" />
+      <img-carousel class="md:mt-24" />
 
-    <where-buy ref="whereBuy" class="md:mt-24" />
+      <where-buy ref="whereBuy" class="md:mt-24" />
 
-    <product-carousel class="md:mt-24" />
+      <product-carousel class="md:mt-24" />
 
-    <branding class="md:mt-24" />
+      <branding class="md:mt-24" />
 
-    <footer-section class="md:mt-24" />
+      <properties ref="properties" class="md:mt-24" />
+    </main>
+
+    <footer>
+      <footer-section class="md:mt-24" />
+    </footer>
   </div>
 </template>
 
@@ -33,18 +41,20 @@ export default {
     FooterSection,
     WhereBuy,
     ProductCarousel,
-    Branding
+    Branding,
+    Properties
   },
   methods: {
     scrollTo(el) {
       this.$refs[el].$el.scrollIntoView({ behavior: "smooth" });
     }
   },
-  head() {
-    return {
-      title: "Miss Poppy's - handgemachte Seifen aus Bern"
-      // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-    };
+  head: {
+    title: "Miss Poppy's - handgemachte Seifen aus Bern",
+    // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+    htmlAttrs: {
+      lang: "de"
+    }
   }
 };
 </script>
