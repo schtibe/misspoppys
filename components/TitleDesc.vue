@@ -21,7 +21,6 @@
         der Haut entgegen wirkt und somit eine pflegende Wirkung erhalten. Sie
         sind allesamt nicht nur für die Hände sondern auch herrvorragend zum
         Duschen geeignet!
-        >
       </p>
 
       <p>
