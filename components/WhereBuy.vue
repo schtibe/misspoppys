@@ -19,6 +19,11 @@
     </div>
 
     <div class="mt-12">
+      Du kannst dich natürlich dich auch einfach bei uns melden unter
+      <a href="mailto:info@misspoppys.ch">info@misspoppys.ch</a>
+    </div>
+
+    <div class="mt-12">
       Gerne verkaufen wir unsere Seifen auch in deinem Laden!<br />
       Bitte nimm doch
       <a href="mailto:info@misspoppys.ch" title="Kontakt Email"
