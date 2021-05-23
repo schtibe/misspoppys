@@ -12,8 +12,9 @@
 
       <p class="pt-2">
         Die Seifen enthalten kein Palmöl und keine unnötigen Zusatzstoffe wie
-        Stabilisatoren oder Weichmacher und sind Plastikfrei verpackt. Viele der
-        verwendeten Inhaltsstoffe sind zudem aus biologischem Abbau.
+        Stabilisatoren oder Weichmacher und sind praktisch unverpackt und somit
+        Plastikfrei. Viele der verwendeten Inhaltsstoffe sind zudem aus
+        biologischem Abbau.
       </p>
 
       <p>
