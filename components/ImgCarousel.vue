@@ -25,12 +25,12 @@ export default {
           alt: "Seife auf Zitrone liegend"
         },
         {
-          src: require("~/assets/carousel-images/camouflage-drei-seifen-aufeinander.jpg"),
-          alt: "Drei Seifen aufeinander"
-        },
-        {
           src: require("~/assets/carousel-images/granola-seife-mit-hafer-und-honig.jpg"),
           alt: "Granola Seife mit einem Wirbel aus Hafer und einem Löffel Honig"
+        },
+        {
+          src: require("~/assets/carousel-images/camouflage-drei-seifen-aufeinander.jpg"),
+          alt: "Drei Seifen aufeinander"
         },
         {
           src: require("~/assets/carousel-images/box-mit-vielen-handgemachten-seifen.jpg"),
