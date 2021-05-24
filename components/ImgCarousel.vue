@@ -21,6 +21,10 @@ export default {
           alt: "Pumpkin Spice Seife auf Kürbis"
         },
         {
+          src: require("~/assets/carousel-images/handgemachte-seife-liegt-auf-zitronen.jpg"),
+          alt: "Seife auf Zitrone liegend"
+        },
+        {
           src: require("~/assets/carousel-images/camouflage-drei-seifen-aufeinander.jpg"),
           alt: "Drei Seifen aufeinander"
         },
