@@ -1,9 +1,14 @@
 <template functional>
-  <img
-    src="~/assets/logo.svg"
-    class="absolute w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 logo-position"
-    alt="Miss Poppy's Handmade Logo"
-  />
+  <div itemscope itemtype="http://schema.org/Organization">
+    <a href="/" itemprop="url">
+      <img
+        src="~/assets/logo.svg"
+        class="absolute w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 logo-position"
+        alt="Miss Poppy's Handmade Logo"
+        itemprop="logo"
+      />
+    </a>
+  </div>
 </template>
 
 <style>
