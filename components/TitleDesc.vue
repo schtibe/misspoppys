@@ -3,7 +3,6 @@
     <div class="m-auto text-center md:px-32">
       <h1 class="">einzigartige Seifen aus Bern</h1>
 
-      <!-- <div class="mt-4">Willkommen bei Miss Poppy's Handmade</div> -->
       <p class="mb-2">
         Miss Poppy's ist eine Seifenmanufaktur aus Bern. Miss Poppy's Seifen
         sind gut für das Wohlbefinden deiner Haut, duften himmlisch, sind
@@ -57,5 +56,9 @@
 <style scoped>
 p {
   @apply mt-2;
+}
+
+p:first-of-type {
+  @apply mt-10;
 }
 </style>
