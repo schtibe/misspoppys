@@ -21,6 +21,12 @@
           <h2 class="md:mb-4 mt-4">{{ product.title }}</h2>
           <product-details class="w-full md:pl-4" :product="product" />
         </div>
+
+        <div itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+          <meta itemprop="availability" content="https://schema.org/InStock" />
+          <meta itemprop="priceCurrency" content="CHF" />
+          <meta itemprop="price" content="9.50" />
+        </div>
       </div>
     </vue-slick-carousel>
   </div>
