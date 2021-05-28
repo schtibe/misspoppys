@@ -2,11 +2,6 @@
   <div class="relative text-black background">
     <img
       ref="heroImage"
-      srcset="
-        ~/assets/header/handgemachte-seife-aus-bern-blush.jpg       1900w,
-        ~/assets/header/handgemachte-seife-aus-bern-blush-small.jpg 1280w
-      "
-      sizes="(max-width: 768px) 1280px, 1900px"
       src="~/assets/header//handgemachte-seife-aus-bern-blush.jpg"
       class="object-cover w-full h-screen max-w-none"
       alt="Handgemachte Seife aus Bern"
