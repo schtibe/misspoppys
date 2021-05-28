@@ -5,7 +5,17 @@
     </div>
 
     <vue-slick-carousel v-bind="settings" class="mt-12">
-      <div v-for="product in products" :key="product.title" class="px-4">
+      <div
+        v-for="product in products"
+        :key="product.title"
+        class="px-4"
+        itemtype="http://schema.org/Product"
+        itemscope
+      >
+        <meta itemprop="name" :content="product.title" />
+        <link itemprop="image" :href="product.image" />
+        <meta itemprop="description" :content="product.alt" />
+
         <div class=" flex flex-col justify-center items-center">
           <img :src="product.image" :alt="product.alt" />
           <h2 class="md:mb-4 mt-4">{{ product.title }}</h2>
