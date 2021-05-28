@@ -50,7 +50,7 @@ export default {
     }
   },
   head: {
-    title: "Miss Poppy's - handgemachte Seifen aus Bern",
+    title: "handgemachte Seifen aus Bern von Miss Poppy's",
     // hid is used as unique identifier. Do not use `vmid` for it as it will not work
     htmlAttrs: {
       lang: "de"
