@@ -1,18 +1,37 @@
 <template>
   <left-right :is-img-left="true">
     <template v-slot:image>
-      <img
-        src="~/assets/individuelle-seife-nach-kundenwunsch.jpg"
-        class="w-2/3"
-        alt="Individuell nach Kundenwunsch angepasste Seife"
-      />
+      <div class="slider">
+        <vue-slick-carousel v-bind="carouselSettings">
+          <figure>
+            <img
+              src="~/assets/seife-in-form-einer-hochzeitstorte.jpg"
+              alt="Seife in Form einer Hochzeitstorte"
+              class="max-w-full"
+            />
+            <figcaption class="text-base">
+              Seife für eine Hochzeit als Erinnerung für die Gäste
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="~/assets/individuelle-seife-nach-kundenwunsch.jpg"
+              alt="Individuell nach Kundenwunsch angepasste Seife"
+            />
+            <figcaption class="text-base">
+              Geschenk für die Gäste eines Ferienhauses
+            </figcaption>
+          </figure>
+        </vue-slick-carousel>
+      </div>
     </template>
     <template v-slot:text>
       <section>
-        <h1>Branding</h1>
+        <h1>Branding oder sonstige Spezialitäten</h1>
         <div class="mt-8">
           <p>
-            Sucht deine Firma ein Kunden- oder Mitarbeitergeschenk?
+            Sucht deine Firma ein Kunden- oder Mitarbeitergeschenk? Brauchst du
+            noch eine Seife für deinen Event?
           </p>
           <p class="mt-2">
             Gerne stellt Misspoppy's Handmade auf Kundenwunsch individuell
@@ -21,10 +40,6 @@
             werden. Ebenso möglich ist die Erstellung eines indvidiuellen
             Stempels, um z.B. das Firmenlogo in der Seife eingraviert zu haben.
           </p>
-          <p class="mt-2">
-            Bei Interesse kannst du dich gerne unter
-            <a href="mailto:info@misspoppys.ch">info@misspoppys.ch</a> melden!
-          </p>
         </div>
       </section>
     </template>
@@ -32,9 +47,35 @@
 </template>
 
 <script>
+import VueSlickCarousel from "vue-slick-carousel";
 import LeftRight from "./LeftRight";
 
 export default {
-  components: { LeftRight }
+  components: { LeftRight, VueSlickCarousel },
+  data() {
+    return {
+      carouselSettings: {
+        dots: true,
+        slidesToShow: 1,
+        infinite: true,
+        centerMode: false,
+        arrow: false,
+        autoplay: true,
+        autoplaySpeed: 5000
+      }
+    };
+  }
 };
 </script>
+
+<style scoped lang="postcss">
+.slider {
+  max-width: 300px;
+}
+
+@screen md {
+  .slider {
+    @apply max-w-2/3;
+  }
+}
+</style>
