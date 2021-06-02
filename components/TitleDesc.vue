@@ -1,6 +1,6 @@
 <template>
-  <div class="container py-16">
-    <div class="m-auto text-center md:px-32">
+  <div class="lg:container py-16">
+    <div class="m-auto text-center px-16 lg:px-32">
       <h1 class="">einzigartige Seifen aus Bern</h1>
 
       <p class="mb-2">
