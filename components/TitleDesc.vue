@@ -4,16 +4,19 @@
       <h1 class="">einzigartige Seifen aus Bern</h1>
 
       <p class="mb-2">
-        Miss Poppy's ist eine Seifenmanufaktur aus Bern. Miss Poppy's Seifen
+        Miss Poppy's ist eine Mikro-Seifensiederei aus Bern. Miss Poppy's Seifen
         sind gut für das Wohlbefinden deiner Haut, duften himmlisch, sind
         allesamt handgemacht und für den täglichen Gebrauch geeignet. Die Seifen
-        werden im traditionellen Verfahren hergestellt und sind lufgehärtet.
+        werden mit hochwertigen Ölen und Buttern im traditionellen Kaltverfahren
+        hergestellt, von Hand geschnitten und werden mindestens 6 bis 8 Wochen
+        lufgehärtet.
       </p>
 
       <p class="pt-2">
-        Die Seifen enthalten kein Palmöl und keine unnötigen Zusatzstoffe wie
-        Stabilisatoren oder Weichmacher und sind praktisch unverpackt und somit
-        Plastikfrei.
+        Die Seifen sind frei von Palmöl, Stabilisatoren, Weichmacher, Silikone
+        und weiteren unnötigen Zusatzstoffen und sind praktisch unverpackt und
+        somit Plastikfrei. Die minimalistische Verpackung kann zudem recycelt
+        werden.
       </p>
 
       <p>
