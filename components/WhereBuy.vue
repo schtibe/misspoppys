@@ -19,7 +19,8 @@
     </div>
 
     <div class="mt-12">
-      Du kannst dich natürlich dich auch einfach bei uns melden unter
+      Für Bestellungen kannst du dich natürlich auch einfach bei uns melden
+      unter
       <a href="mailto:info@misspoppys.ch">info@misspoppys.ch</a>
     </div>
 
