@@ -51,7 +51,7 @@ export default {
 } */
 
 .title {
-  bottom: 100px;
+  bottom: 50px;
   text-align: center;
 }
 </style>
