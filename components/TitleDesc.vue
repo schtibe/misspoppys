@@ -9,7 +9,7 @@
         allesamt handgemacht und für den täglichen Gebrauch geeignet. Die Seifen
         werden mit hochwertigen Ölen und Buttern im traditionellen Kaltverfahren
         hergestellt, von Hand geschnitten und werden mindestens 6 bis 8 Wochen
-        lufgehärtet.
+        luftgehärtet.
       </p>
 
       <p class="pt-2">
