@@ -22,6 +22,15 @@
               Geschenk für die Gäste eines Ferienhauses
             </figcaption>
           </figure>
+          <figure>
+            <img
+              src="~/assets/branded-seife-mit-stempel.jpg"
+              alt="Seife mit Logo-Stempel"
+            />
+            <figcaption class="text-base">
+              Weihnachtsgeschenk für die Kunden von plus minus
+            </figcaption>
+          </figure>
         </vue-slick-carousel>
       </div>
     </template>
