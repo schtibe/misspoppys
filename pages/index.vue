@@ -51,6 +51,14 @@ export default {
   },
   head: {
     title: "handgemachte Seifen aus Bern von Miss Poppy's",
+    meta: [
+      {
+        vmid: "description",
+        name: "miss poppy's handmade",
+        content:
+          "Handgemachte und natürliche Seifen aus Bern in der Schweiz. Unsere Seifen duften himmlisch, sehen köstlich aus und sind gut für deine Haut."
+      }
+    ],
     // hid is used as unique identifier. Do not use `vmid` for it as it will not work
     htmlAttrs: {
       lang: "de"
