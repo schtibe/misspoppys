@@ -5,6 +5,10 @@
 @import 'tailwindcss/utilities';
 @import 'tailwindcss/screens';
 
+body {
+  @apply text-gray-900;
+}
+
 
 @font-face {
   font-family: 'Quicksand';
