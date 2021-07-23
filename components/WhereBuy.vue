@@ -5,6 +5,11 @@
     <div class="mt-10">
       <ul>
         <li>
+          <a target="_blank" href="https://www.joyschoice.ch/"
+            >Joy's Choice in Solothurn</a
+          >
+        </li>
+        <li class="mt-4">
           <a target="_blank" href="http://coiffure-plus-minus.ch"
             >Im Lädeli von Coiffure plus minus Bern</a
           >
