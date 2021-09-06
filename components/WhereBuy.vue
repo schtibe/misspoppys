@@ -6,8 +6,18 @@
       <ul>
         <li>
           <a target="_blank" href="https://www.joyschoice.ch/"
-            >Joy's Choice in Solothurn</a
+            >In der Boutique Joy's Choice in Solothurn</a
           >
+        </li>
+        <li class="mt-4">
+          <a target="_blank" href="https://www.breitsch-lädeli.ch/"
+            >Im Breitsch Lädeli in Bern ab Oktober 21
+          </a>
+        </li>
+        <li class="mt-4">
+          <a target="_blank" href="https://lesateliers.ch/">
+            Online bei Les Ateliers ab Dezember 21
+          </a>
         </li>
         <li class="mt-4">
           <a target="_blank" href="http://coiffure-plus-minus.ch"
