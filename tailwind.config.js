@@ -23,7 +23,8 @@ module.exports = {
       black: "#000",
       white: "#fff",
 
-      pink: "#E2C8CE",
+      pink: "#cdc1c5",
+      "pink-light": "#eddee1",
 
       brown: {
         dark: "#2B120A",
@@ -31,7 +32,7 @@ module.exports = {
       },
       green: {
         dark: "#242E2A",
-        eucalyptus: "#8DB5A3"
+        eucalyptus: "#98aba7"
       },
 
       gray: {
