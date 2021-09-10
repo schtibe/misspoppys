@@ -43,13 +43,13 @@
       </p>
 
       <p>
+        Wo du die Seifen kaufen kannst, findest du weiter unten unter
         <a
           href="#"
           class="btn-link"
           @click.prevent="$emit('scrollTo', 'whereBuy')"
         >
-          Die Seifen sind zur Zeit in einem Online-Shop und bei plus minus
-          Lädeli in Bern erhältlich.
+          Wo man uns kaufen kann
         </a>
       </p>
     </div>
