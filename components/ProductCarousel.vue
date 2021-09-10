@@ -147,6 +147,23 @@ export default {
           scent: "Lorbeer, Tannennadel, Bergamotte, Tabak, maskulin",
           superfat: "8%",
           vegan: "Vegan"
+        },
+        {
+          title: "Romanoff",
+          image: require("~/assets/soaps/handgemachte-seife-romanoff.jpg"),
+          alt: 'Handgemachte Seife "Romanoff"',
+          scent: "Erdbeer und Vanille",
+          superfat: "6%",
+          vegan: "Vegan"
+        },
+        {
+          title: "Lemonade",
+          image: require("~/assets/soaps/handgemachte-seife-lemonade.jpg"),
+          alt: 'Handgemachte Seife "Romanoff"',
+          scent: "Zitronenlimonade",
+          superfat: "6%",
+          vegan: "Vegan",
+          info: "Mit Meersalz"
         }
       ],
       settings: {
