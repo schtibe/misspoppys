@@ -1,6 +1,5 @@
 <template>
   <section class="container py-16 text-center">
-    <a id="wherebuy" />
     <h1>Wo man uns kaufen kann</h1>
 
     <div class="mt-10">

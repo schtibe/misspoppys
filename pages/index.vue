@@ -44,6 +44,13 @@ export default {
     Branding
     // Properties
   },
+  mounted() {
+    if (this.$route.hash) {
+      this.$nextTick(() => {
+        this.scrollTo("whereBuy");
+      });
+    }
+  },
   methods: {
     scrollTo(el) {
       this.$refs[el].$el.scrollIntoView({ behavior: "smooth" });
