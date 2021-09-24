@@ -43,7 +43,7 @@ export default {
       products: [
         {
           title: "Pumpkin Spice Latte",
-          image: require("~/assets/soaps/handgemachte-seife-pumpkin_spice_latte.jpg"),
+          image: require("~/assets/soaps/handgemachte-seife-pumpkin-spice-latte.jpg"),
           scent: "Kürbis, Zimt, Gewürz und Nuss",
           superfat: "8%",
           alt:
@@ -79,15 +79,15 @@ export default {
           vegan: "Vegan",
           info: "100% natürliche Zutaten, mit weisser Tonerde"
         },
-        {
-          title: "Blush",
-          image: require("~/assets/soaps/handgemachte-seife-blush.jpg"),
-          alt:
-            'Handgemachte Seife "Blush" mit Duftnote Blumig, Vanille, Kokosnuss, Süss',
-          scent: "Blumig, Vanille, Kokosnuss, Süss",
-          superfat: "5%",
-          info: "Mit Ziegenmilch und weisser Tonerde"
-        },
+        // {
+        //   title: "Blush",
+        //   image: require("~/assets/soaps/handgemachte-seife-blush.jpg"),
+        //   alt:
+        //     'Handgemachte Seife "Blush" mit Duftnote Blumig, Vanille, Kokosnuss, Süss',
+        //   scent: "Blumig, Vanille, Kokosnuss, Süss",
+        //   superfat: "5%",
+        //   info: "Mit Ziegenmilch und weisser Tonerde"
+        // },
         {
           title: "Neroli",
           image: require("~/assets/soaps/handgemachte-seife-neroli.jpg"),
@@ -108,7 +108,7 @@ export default {
         },
         {
           title: "Cherry Flower Power",
-          image: require("~/assets/soaps/handgemachte-seife-cherry_flower_power.jpg"),
+          image: require("~/assets/soaps/handgemachte-seife-cherry-flower-power.jpg"),
           alt:
             'Handgemachte Seife "Cherry Flower Power" mit Duft nach Kirschblüten',
           scent: "Kirschblüten, blumig",
@@ -118,9 +118,10 @@ export default {
         },
         {
           title: "Juicy Lavender",
-          image: require("~/assets/soaps/handgemachte-seife-juicy_lavender.jpg"),
+          image: require("~/assets/soaps/handgemachte-seife-juicy-lavender.jpg"),
           alt:
             'Handgemachte Seife "Juicy Lavender" mit Duft nach Lavendel und Zitrone',
+
           scent: "Lavendel und Zitrone",
           superfat: "6%",
           vegan: "Vegan",
@@ -132,7 +133,7 @@ export default {
         // },
         {
           title: "Salted Grapefruit",
-          image: require("~/assets/soaps/handgemachte-seife-salted_grapefruit.jpg"),
+          image: require("~/assets/soaps/handgemachte-seife-salted-grapefruit.jpg"),
           alt:
             'Handgemachte Seife "Salted Grapefruit" mit Duft nach Pink Grapefruit',
           scent: "Pink Grapefruit, Ingwer, Pfeffer, frisch",
@@ -164,6 +165,14 @@ export default {
           superfat: "6%",
           vegan: "Vegan",
           info: "Mit Meersalz"
+        },
+        {
+          title: "Chuck Raspberry",
+          image: require("~/assets/soaps/handgemachte-seife-chuck-raspberry.jpg"),
+          alt: 'Handgemachte Seife "Chuck Raspberry"',
+          scent: "Himbeere",
+          superfat: "4%",
+          vegan: "Vegan"
         }
       ],
       settings: {
