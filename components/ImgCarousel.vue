@@ -17,36 +17,36 @@ export default {
     return {
       images: [
         {
-          src: require("~/assets/carousel-images/seife-pumpkin-spice.jpg"),
-          alt: "Pumpkin Spice Seife auf Kürbis"
+          src: require("~/assets/carousel-images/schneiden-handgemachter-seifen.jpg"),
+          alt: "Schneiden von handgemachten Seifen"
         },
         {
-          src: require("~/assets/carousel-images/handgemachte-seife-liegt-auf-zitronen.jpg"),
-          alt: "Seife auf Zitrone liegend"
+          src: require("~/assets/carousel-images/handgemachte-seife-mit-salz.jpg"),
+          alt: "Handgemachte Seife liegt in der Küche"
+        },
+        {
+          src: require("~/assets/carousel-images/seifen-auf-tisch-aufgereiht.jpg"),
+          alt: "Seifen auf einem Tisch aufgereiht"
         },
         {
           src: require("~/assets/carousel-images/granola-seife-mit-hafer-und-honig.jpg"),
           alt: "Granola Seife mit einem Wirbel aus Hafer und einem Löffel Honig"
         },
         {
-          src: require("~/assets/carousel-images/camouflage-drei-seifen-aufeinander.jpg"),
-          alt: "Drei Seifen aufeinander"
+          src: require("~/assets/carousel-images/handgemachte-seifen-im-koffer.jpg"),
+          alt: "Seifen in einem Koffer ausgestellt"
         },
         {
-          src: require("~/assets/carousel-images/box-mit-vielen-handgemachten-seifen.jpg"),
-          alt: "Eine Box mit vielen Seifen nebeneinander"
+          src: require("~/assets/carousel-images/seife-mit-beeren.jpg"),
+          alt: "Seifen mit Himbeeren"
         },
         {
-          src: require("~/assets/carousel-images/seifen-schneiden.jpg"),
-          alt: "Frau, die eine Seife schneidet"
+          src: require("~/assets/carousel-images/seifen-mit-lavendel.jpg"),
+          alt: "Seifen mit Lavendel"
         },
         {
-          src: require("~/assets/carousel-images/eukalyptus-seifen-stapel-mit-gravur.jpg"),
-          alt: 'Ein Stapel von Seifen mit "Miss Poppy\'s" Gravur'
-        },
-        {
-          src: require("~/assets/carousel-images/granola-seife-block.jpg"),
-          alt: "Die Ecke vom der Granola-Seife am Block"
+          src: require("~/assets/carousel-images/seifen-am-block-aufgereiht.jpg"),
+          alt: "Verschiedene Seifen am Block aufgereiht"
         },
         {
           src: require("~/assets/carousel-images/cupcake-seife.jpg"),
