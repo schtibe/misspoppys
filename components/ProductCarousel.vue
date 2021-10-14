@@ -1,5 +1,5 @@
 <template>
-  <div class="px-10 md:py-16 py-8 bg-green-eucalyptus">
+  <div class="px-10 py-8 md:py-16 bg-green-eucalyptus">
     <div class="container text-center">
       <h1>Sortiment</h1>
     </div>
@@ -16,9 +16,9 @@
         <link itemprop="image" :href="product.image" />
         <meta itemprop="description" :content="product.alt" />
 
-        <div class=" flex flex-col justify-center items-center">
+        <div class="flex flex-col items-center justify-center ">
           <img :src="product.image" :alt="product.alt" />
-          <h2 class="md:mb-4 mt-4">{{ product.title }}</h2>
+          <h2 class="mt-4 md:mb-4">{{ product.title }}</h2>
           <product-details class="w-full md:pl-4" :product="product" />
         </div>
 

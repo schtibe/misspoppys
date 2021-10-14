@@ -1,7 +1,7 @@
 <template>
   <div class="border-box">
     <header>
-      <hero />
+      <hero-bar />
     </header>
 
     <main>
@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import Hero from "~/components/Hero.vue";
+import HeroBar from "~/components/Hero.vue";
 import TitleDesc from "~/components/TitleDesc.vue";
 import ImgCarousel from "~/components/ImgCarousel.vue";
 import FooterSection from "~/components/FooterSection.vue";
@@ -35,7 +35,7 @@ import Branding from "~/components/Branding.vue";
 
 export default {
   components: {
-    Hero,
+    HeroBar,
     TitleDesc,
     ImgCarousel,
     FooterSection,

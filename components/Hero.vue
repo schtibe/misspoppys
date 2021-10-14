@@ -7,14 +7,14 @@
         ~/assets/header/handgemachte-seife-aus-bern-one-in-a-melon-small.jpg 1280w
       "
       sizes="(max-width: 768px) 1280px, 1900px"
-      src="~/assets/header//handgemachte-seife-aus-bern-blush.jpg"
+      src="~/assets/header/handgemachte-seife-aus-bern-blush.jpg"
       class="object-cover w-full h-screen max-w-none"
       alt="Handgemachte Seife aus Bern"
     />
     <div class="absolute inset-0 background" />
     <logo />
     <div class="absolute w-full title">
-      <div class="text-4xl md:text-6xl">
+      <div key="hero-title" class="text-4xl md:text-6xl">
         Miss Poppy's Handmade
       </div>
     </div>
