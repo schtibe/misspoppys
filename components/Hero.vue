@@ -37,12 +37,12 @@ export default {
 
 <style>
 .background {
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.1) 0%,
     rgba(0, 0, 0, 0) 50%,
     rgba(0, 0, 0, 0.2) 100%
-  );
+  ); */
 }
 
 /* .title {
