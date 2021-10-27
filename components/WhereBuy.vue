@@ -11,7 +11,7 @@
         </li>
         <li class="mt-4">
           <a target="_blank" href="https://www.breitsch-lädeli.ch/"
-            >Im Breitsch Lädeli in Bern ab Oktober 21
+            >Im Breitsch Lädeli in Bern
           </a>
         </li>
         <li class="mt-4">
