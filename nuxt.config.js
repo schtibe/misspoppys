@@ -55,7 +55,10 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ["@nuxtjs/gtm"],
+  gtm: {
+    id: "G-C7G35S7DC5"
+  },
   /*
    ** Build configuration
    */
