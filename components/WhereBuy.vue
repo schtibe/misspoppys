@@ -9,16 +9,25 @@
             >In der Boutique Joy's Choice in Solothurn</a
           >
         </li>
+
         <li class="mt-4">
           <a target="_blank" href="https://www.breitsch-lädeli.ch/"
             >Im Breitsch Lädeli in Bern
           </a>
         </li>
+
         <li class="mt-4">
           <a target="_blank" href="https://lesateliers.ch/">
             Online bei Les Ateliers ab Dezember 21
           </a>
         </li>
+
+        <li class="mt-4">
+          <a target="_blank" href="https://myriamschilling.ch/">
+            Bei Augenglück in Leissigen
+          </a>
+        </li>
+
         <li class="mt-4">
           <a target="_blank" href="http://coiffure-plus-minus.ch"
             >Im Lädeli von Coiffure plus minus Bern</a
