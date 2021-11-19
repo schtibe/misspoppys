@@ -1,10 +1,18 @@
 <template>
-  <div class="px-10 py-10 bg-pink">
-    <vue-slick-carousel v-bind="settings" class="">
-      <div v-for="image in images" :key="image.src" class="carousel-image">
-        <img :src="image.src" :alt="image.alt" />
-      </div>
-    </vue-slick-carousel>
+  <div>
+    <div class="triangled-top-right triangled-top">
+      &nbsp;
+    </div>
+    <div class="px-10 py-10 bg-pink">
+      <vue-slick-carousel v-bind="settings" class="">
+        <div v-for="image in images" :key="image.src" class="carousel-image">
+          <img :src="image.src" :alt="image.alt" />
+        </div>
+      </vue-slick-carousel>
+    </div>
+    <div class="triangled-bottom-left triangled-bottom">
+      &nbsp;
+    </div>
   </div>
 </template>
 
@@ -49,8 +57,8 @@ export default {
           alt: "Verschiedene Seifen am Block aufgereiht"
         },
         {
-          src: require("~/assets/carousel-images/cupcake-seife.jpg"),
-          alt: "Eine Seife in Form eines Cupcakes"
+          src: require("~/assets/carousel-images/zwei-cupcake-seifen.jpg"),
+          alt: "Seifen in Form eines Cupcakes mit Streusel und Toppings"
         }
       ],
       settings: {
@@ -77,5 +85,21 @@ export default {
 .carousel-image {
   @apply w-48;
   @apply px-4;
+}
+
+.triangled-bottom {
+  @apply bg-pink;
+}
+
+.triangled-bottom:before {
+  @apply bg-white;
+}
+
+.triangled-top {
+  @apply bg-pink;
+}
+
+.triangled-top:before {
+  @apply bg-white;
 }
 </style>
