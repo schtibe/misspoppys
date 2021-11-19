@@ -35,3 +35,46 @@ a:hover, .btn-link:hover {
     @apply px-0;
   }
 }
+
+:root {
+  --triangle-angle: 2deg;
+}
+
+.triangled-bottom-left, .triangled-top-right, .triangled-top-left, .triangled-bottom-right {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+
+  &:before {
+    content:"";
+    position: absolute;
+    width: 150%;
+    height: 200%;
+    transform: rotate(calc(var(--triangle-angle) * -1));
+  }
+}
+
+
+.triangled-bottom-left:before {
+  left: -50%;
+  top: 0;
+  transform-origin: 100% 0;
+}
+
+.triangled-top-right:before {
+  bottom: 0;
+  transform-origin: 0 100%;
+}
+
+.triangled-top-left:before {
+  bottom: 0;
+  transform-origin: 100% 100%;
+  right: 0;
+  transform: rotate(var(--triangle-angle));
+}
+
+.triangled-bottom-right:before {
+  top: 0;
+  transform-origin: 0% 0%;
+  transform: rotate(var(--triangle-angle));
+}

@@ -42,6 +42,40 @@ export default {
     return {
       products: [
         {
+          title: "Cinnamon Bun",
+          image: require("~/assets/soaps/handgemachte-seife-cinnamon-bun.jpg"),
+          scent: "Zimt und Zucker, süss und würzig",
+          superfat: "6%",
+          alt:
+            "Handgemachte Cinnamon Bun Seife mit Duftnote Zimt und Zucker, süss und würzig",
+          vegan: "Vegan"
+        },
+        {
+          title: "Milli Vanilla",
+          image: require("~/assets/soaps/handgemachte-seife-milli-vanilla.jpg"),
+          scent: "Vanille",
+          superfat: "6%",
+          alt: 'Handgemachte Seife "Milli Vanilla" mit Duft nach Vanille',
+          vegan: "Vegan"
+        },
+        {
+          title: "Christmas Spice",
+          image: require("~/assets/soaps/handgemachte-seife-christmas-spice.jpg"),
+          scent: "Weihnachtsgewürze- Orange, Zimt, Nelken",
+          superfat: "6%",
+          alt: 'Handgemachte Seife "Christmas Spice" mit Weihnachtlichem Duft',
+          vegan: "Vegan"
+        },
+        {
+          title: "Pecan Pie",
+          image: require("~/assets/soaps/handgemachte-seife-pecan-pie.jpg"),
+          scent:
+            "Pecan Nuss und Ahornsirup, süsslich, nussig und leicht herb zugleich",
+          superfat: "6%",
+          alt: 'Handgemachte Seife "Pecan Pie" mit Nussigem Duft',
+          vegan: "Vegan"
+        },
+        {
           title: "Pumpkin Spice Latte",
           image: require("~/assets/soaps/handgemachte-seife-pumpkin-spice-latte.jpg"),
           scent: "Kürbis, Zimt, Gewürz und Nuss",
@@ -50,14 +84,6 @@ export default {
             "Handgemachte Pumpkin Spice Latte Seife mit Duftnote Kürbis, Zimt, Gewürz und Nuss",
           vegan: "Vegan",
           info: "Mit Hafermilch und weisser Tonerde"
-        },
-        {
-          title: "One in a Melon",
-          image: require("~/assets/soaps/handgemachte-seife-one-in-a-melon.jpg"),
-          scent: "Wassermelone",
-          alt: 'Handgemachte Seife "One in a Melon" mit Duft nach Wassermelone',
-          superfat: "7%",
-          vegan: "Vegan"
         },
         {
           title: "Granola",
@@ -98,25 +124,6 @@ export default {
           info: "mit weisser Tonerde"
         },
         {
-          title: "Fresh Linen",
-          image: require("~/assets/soaps/handgemachte-seife-fresh-linen.jpg"),
-          alt:
-            'Handgemachte Seife "Fresh Linen" mit Duft nach frischer Wäsche, Vanille, Zitrone und Zuckerwatte',
-          scent: "Frische Wäsche, Vanille, Zitrone und Zuckerwatte",
-          superfat: "5%",
-          vegan: "Vegan"
-        },
-        {
-          title: "Cherry Flower Power",
-          image: require("~/assets/soaps/handgemachte-seife-cherry-flower-power.jpg"),
-          alt:
-            'Handgemachte Seife "Cherry Flower Power" mit Duft nach Kirschblüten',
-          scent: "Kirschblüten, blumig",
-          superfat: "6%",
-          vegan: "Vegan",
-          info: "Mit weisser Tonerde"
-        },
-        {
           title: "Juicy Lavender",
           image: require("~/assets/soaps/handgemachte-seife-juicy-lavender.jpg"),
           alt:
@@ -127,10 +134,6 @@ export default {
           vegan: "Vegan",
           info: "100% natürliche Zutaten"
         },
-        // {
-        //   title: "Christmas Spice",
-        //   image: require("~/assets/soaps/handgemachte-seife-christmas_spice.jpg")
-        // },
         {
           title: "Salted Grapefruit",
           image: require("~/assets/soaps/handgemachte-seife-salted-grapefruit.jpg"),
@@ -173,6 +176,33 @@ export default {
           scent: "Himbeere",
           superfat: "4%",
           vegan: "Vegan"
+        },
+        {
+          title: "Fresh Linen",
+          image: require("~/assets/soaps/handgemachte-seife-fresh-linen.jpg"),
+          alt:
+            'Handgemachte Seife "Fresh Linen" mit Duft nach frischer Wäsche, Vanille, Zitrone und Zuckerwatte',
+          scent: "Frische Wäsche, Vanille, Zitrone und Zuckerwatte",
+          superfat: "5%",
+          vegan: "Vegan"
+        },
+        {
+          title: "One in a Melon",
+          image: require("~/assets/soaps/handgemachte-seife-one-in-a-melon.jpg"),
+          scent: "Wassermelone",
+          alt: 'Handgemachte Seife "One in a Melon" mit Duft nach Wassermelone',
+          superfat: "7%",
+          vegan: "Vegan"
+        },
+        {
+          title: "Cherry Flower Power",
+          image: require("~/assets/soaps/handgemachte-seife-cherry-flower-power.jpg"),
+          alt:
+            'Handgemachte Seife "Cherry Flower Power" mit Duft nach Kirschblüten',
+          scent: "Kirschblüten, blumig",
+          superfat: "6%",
+          vegan: "Vegan",
+          info: "Mit weisser Tonerde"
         }
       ],
       settings: {
