@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="triangled-top-right triangled-top">
+    <div class="">
       &nbsp;
     </div>
     <div class="px-10 py-10 bg-pink">
@@ -10,7 +10,7 @@
         </div>
       </vue-slick-carousel>
     </div>
-    <div class="triangled-bottom-left triangled-bottom">
+    <div class="">
       &nbsp;
     </div>
   </div>
