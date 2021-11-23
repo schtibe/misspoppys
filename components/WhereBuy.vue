@@ -1,6 +1,6 @@
 <template>
   <section class="container py-16 text-center">
-    <h1>Wo man uns kaufen kann</h1>
+    <h1>Wo du Miss Poppy's Produkte findest</h1>
 
     <div class="mt-10">
       <ul>
