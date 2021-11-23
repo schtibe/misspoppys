@@ -57,11 +57,11 @@ export default {
     }
   },
   head: {
-    title: "handgemachte Seifen aus Bern von Miss Poppy's",
+    title: "handgemachte und natürliche Seifen aus Bern von Miss Poppy's",
     meta: [
       {
         vmid: "description",
-        name: "miss poppy's handmade",
+        name: "description",
         content:
           "Handgemachte und natürliche Seifen aus Bern in der Schweiz. Unsere Seifen duften himmlisch, sehen köstlich aus und sind gut für deine Haut."
       }
