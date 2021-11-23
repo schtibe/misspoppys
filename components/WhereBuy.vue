@@ -18,7 +18,7 @@
 
         <li class="mt-4">
           <a target="_blank" href="https://lesateliers.ch/">
-            Online bei Les Ateliers ab Dezember 21
+            Online bei Les Ateliers
           </a>
         </li>
 
@@ -38,6 +38,18 @@
           <a target="_blank" href="http://plus-minus-shop.ch"
             >Online im plus minus Shop</a
           >
+        </li>
+
+        <li class="mt-4">
+          <a target="_blank" href="https://fraeuleinfroehli.ch/">
+            In den Geschenkboxen von Fräulein Fröhlich</a
+          >
+        </li>
+
+        <li class="mt-4">
+          ... und oftmals auf Märkten. Siehe
+          <a href="https://www.instagram.com/misspoppys/"> Instagram</a>, um die
+          neuesten Infos zu haben.
         </li>
       </ul>
     </div>
