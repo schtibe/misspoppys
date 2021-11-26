@@ -11,7 +11,8 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Handgemachte Seifen auf natürlicher Basis hergestellt in Bern"
+        content:
+          "Handgemachte und natürliche Seifen aus Bern in der Schweiz. Unsere Seifen duften himmlisch, sehen köstlich aus und sind gut für deine Haut."
       },
       {
         hid: "keywords",
