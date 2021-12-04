@@ -23,6 +23,15 @@
         </li>
 
         <li class="mt-4">
+          <a
+            target="_blank"
+            href="https://www.google.com/maps/place/Boutique+Brigitta/@46.960545,7.4520773,17z/data=!3m1!4b1!4m5!3m4!1s0x478e39eed5643d6f:0xff85cfc7f12f4e99!8m2!3d46.9605118!4d7.4541779"
+          >
+            In der Boutique Brigitta im Breitenrain Bern
+          </a>
+        </li>
+
+        <li class="mt-4">
           <a target="_blank" href="https://myriamschilling.ch/">
             Bei Augenglück in Leissigen
           </a>
