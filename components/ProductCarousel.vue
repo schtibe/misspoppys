@@ -177,15 +177,15 @@ export default {
           superfat: "4%",
           vegan: "Vegan"
         },
-        {
-          title: "Fresh Linen",
-          image: require("~/assets/soaps/handgemachte-seife-fresh-linen.jpg"),
-          alt:
-            'Handgemachte Seife "Fresh Linen" mit Duft nach frischer Wäsche, Vanille, Zitrone und Zuckerwatte',
-          scent: "Frische Wäsche, Vanille, Zitrone und Zuckerwatte",
-          superfat: "5%",
-          vegan: "Vegan"
-        },
+        // {
+        //   title: "Fresh Linen",
+        //   image: require("~/assets/soaps/handgemachte-seife-fresh-linen.jpg"),
+        //   alt:
+        //     'Handgemachte Seife "Fresh Linen" mit Duft nach frischer Wäsche, Vanille, Zitrone und Zuckerwatte',
+        //   scent: "Frische Wäsche, Vanille, Zitrone und Zuckerwatte",
+        //   superfat: "5%",
+        //   vegan: "Vegan"
+        // },
         {
           title: "One in a Melon",
           image: require("~/assets/soaps/handgemachte-seife-one-in-a-melon.jpg"),
