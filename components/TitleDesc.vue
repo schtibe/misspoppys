@@ -52,6 +52,15 @@
           Wo man uns kaufen kann
         </a>
       </p>
+
+      <div class="mt-4">
+        <p class="">
+          <strong>Neu!</strong>
+        </p>
+        <p>
+          Neu gibt es auch feste Bodylotion im Sortiment.
+        </p>
+      </div>
     </div>
   </div>
 </template>

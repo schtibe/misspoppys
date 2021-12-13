@@ -13,6 +13,8 @@
 
       <product-carousel ref="products" class="md:mt-24" />
 
+      <product-carousel-body-lotions ref="products" class="md:mt-24" />
+
       <branding ref="branding" class="md:mt-24" />
 
       <!-- <properties ref="properties" class="md:mt-24" /> -->
@@ -30,8 +32,10 @@ import TitleDesc from "~/components/TitleDesc.vue";
 import ImgCarousel from "~/components/ImgCarousel.vue";
 import FooterSection from "~/components/FooterSection.vue";
 import ProductCarousel from "~/components/ProductCarousel.vue";
+import ProductCarouselBodyLotions from "~/components/ProductCarouselBodyLotions.vue";
 import WhereBuy from "~/components/WhereBuy.vue";
 import Branding from "~/components/Branding.vue";
+// import Properties from "~/components/Properties.vue";
 
 export default {
   components: {
@@ -41,7 +45,8 @@ export default {
     FooterSection,
     WhereBuy,
     ProductCarousel,
-    Branding
+    Branding,
+    ProductCarouselBodyLotions
     // Properties
   },
   mounted() {
