@@ -42,6 +42,15 @@ export default {
     return {
       products: [
         {
+          title: "Blueberry",
+          image: require("~/assets/soaps/handgemachte-seife-blueberry.jpg"),
+          scent: "Blaubeere, fruchtig, frisch",
+          superfat: "7%",
+          alt:
+            "Handgemachte Blueberry Seife mit Duftnote Zimt und Zucker, süss und würzig ",
+          vegan: "Vegan"
+        },
+        {
           title: "Cinnamon Bun",
           image: require("~/assets/soaps/handgemachte-seife-cinnamon-bun.jpg"),
           scent: "Zimt und Zucker, süss und würzig",
