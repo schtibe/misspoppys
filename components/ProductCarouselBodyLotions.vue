@@ -45,23 +45,29 @@ export default {
           title: "Lime Colada",
           image: require("~/assets/body_lotions/handgemachte-solid-body-lotion-lime-collada.jpg"),
           scent: "Koskos und Limette, wie ein Longdrink am Strand",
-          vegan: "Vegan"
+          vegan: "Vegan",
+          alt: "Handgemachte feste Body Lotion mit Duftnote Kokos und Limette"
         },
         {
           title: "Purple Heaven",
           image: require("~/assets/body_lotions/handgemachte-solid-body-lotion-purple-heaven.jpg"),
-          scent: "Vanille und Lavendel"
+          scent: "Vanille und Lavendel",
+          alt:
+            "Handgemachte feste Body Lotion mit Duftnote Vanille und Lavendel"
         },
         {
           title: "Glowpefruit",
           image: require("~/assets/body_lotions/handgemachte-solid-body-lotion-glowpefruit.jpg"),
-          scent: "Grapefruit, zitrusig und frisch"
+          scent: "Grapefruit, zitrusig und frisch",
+          alt: "Handgemachte feste Bodylotion mit Duftnoe Grapefruit"
         },
         {
           title: "Sugar Plum Fairy",
           image: require("~/assets/body_lotions/handgemachte-solid-body-lotion-sugar-plum-fairy.jpg"),
           scent:
-            "Zuckerwatte und Bonbonladen, alles was der Zahnarzt verbietet ;)"
+            "Zuckerwatte und Bonbonladen, alles was der Zahnarzt verbietet ;)",
+          alt:
+            "Handgemachte feste Bodylotion mit Duftnote nach Zuckerwatte und Bonbonladen"
         }
       ],
       settings: {
