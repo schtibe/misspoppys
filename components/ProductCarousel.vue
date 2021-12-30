@@ -62,7 +62,7 @@ export default {
           alt:
             "Handgemachte Cinnamon Bun Seife mit Duftnote Zimt und Zucker, süss und würzig",
           vegan: "Vegan",
-          seasonal: "Winter Special"
+          seasonal: "Herbst/Winter Special"
         },
         {
           title: "Milli Vanilla",
@@ -99,7 +99,7 @@ export default {
             "Handgemachte Pumpkin Spice Latte Seife mit Duftnote Kürbis, Zimt, Gewürz und Nuss",
           vegan: "Vegan",
           info: "Mit Hafermilch und weisser Tonerde",
-          seasonal: "Herbst Special"
+          seasonal: "Herbst/Winter Special"
         },
         {
           title: "Granola",
@@ -208,7 +208,8 @@ export default {
           scent: "Wassermelone",
           alt: 'Handgemachte Seife "One in a Melon" mit Duft nach Wassermelone',
           superfat: "7%",
-          vegan: "Vegan"
+          vegan: "Vegan",
+          seasonal: "Sommer Special"
         },
         {
           title: "Cherry Flower Power",
