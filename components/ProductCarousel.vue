@@ -18,7 +18,11 @@
 
         <div class="flex flex-col items-center justify-center ">
           <img :src="product.image" :alt="product.alt" />
-          <h2 class="mt-4 md:mb-4">{{ product.title }}</h2>
+          <h2 class="mt-4">{{ product.title }}</h2>
+          <div v-if="product.seasonal" class="md:mb-4">
+            ({{ product.seasonal }})
+          </div>
+          <div v-else class="md:mb-4">&nbsp;</div>
           <product-details class="w-full md:pl-4" :product="product" />
         </div>
 
@@ -57,7 +61,8 @@ export default {
           superfat: "6%",
           alt:
             "Handgemachte Cinnamon Bun Seife mit Duftnote Zimt und Zucker, süss und würzig",
-          vegan: "Vegan"
+          vegan: "Vegan",
+          seasonal: "Winter Special"
         },
         {
           title: "Milli Vanilla",
@@ -73,7 +78,8 @@ export default {
           scent: "Weihnachtsgewürze- Orange, Zimt, Nelken",
           superfat: "6%",
           alt: 'Handgemachte Seife "Christmas Spice" mit Weihnachtlichem Duft',
-          vegan: "Vegan"
+          vegan: "Vegan",
+          seasonal: "Winter Special"
         },
         {
           title: "Pecan Pie",
@@ -92,7 +98,8 @@ export default {
           alt:
             "Handgemachte Pumpkin Spice Latte Seife mit Duftnote Kürbis, Zimt, Gewürz und Nuss",
           vegan: "Vegan",
-          info: "Mit Hafermilch und weisser Tonerde"
+          info: "Mit Hafermilch und weisser Tonerde",
+          seasonal: "Herbst Special"
         },
         {
           title: "Granola",
