@@ -52,7 +52,8 @@ export default {
           superfat: "7%",
           alt:
             "Handgemachte Blueberry Seife mit Duftnote Zimt und Zucker, süss und würzig ",
-          vegan: "Vegan"
+          vegan: "Vegan",
+          info: "mit Sheabutter und Aprikosenkernöl"
         },
 
         {
@@ -61,7 +62,8 @@ export default {
           scent: "Vanille",
           superfat: "6%",
           alt: 'Handgemachte Seife "Milli Vanilla" mit Duft nach Vanille',
-          vegan: "Vegan"
+          vegan: "Vegan",
+          info: "mit Sheabutter und Kakaobutter"
         },
 
         {
@@ -71,7 +73,8 @@ export default {
             "Pecan Nuss und Ahornsirup, süsslich, nussig und leicht herb zugleich",
           superfat: "6%",
           alt: 'Handgemachte Seife "Pecan Pie" mit Nussigem Duft',
-          vegan: "Vegan"
+          vegan: "Vegan",
+          info: "mit Sheabutter"
         },
         {
           title: "Pumpkin Spice Latte",
@@ -81,7 +84,7 @@ export default {
           alt:
             "Handgemachte Pumpkin Spice Latte Seife mit Duftnote Kürbis, Zimt, Gewürz und Nuss",
           vegan: "Vegan",
-          info: "Mit Hafermilch und weisser Tonerde",
+          info: "Hafermilchseife mit Sheabutter und Mandelöl",
           seasonal: "Herbst/Winter Special"
         },
         {
@@ -102,7 +105,8 @@ export default {
             'Handgemachte Seife "Eukalypta" mit Duft nach erfrischenden und kühlendem Eukalyptus und Rosmarin',
           superfat: "7%",
           vegan: "Vegan",
-          info: "100% natürliche Zutaten, mit weisser Tonerde"
+          info:
+            "mit Sheabutter und Traubenkernöl. Zutaten 100% aus natürlichem Usprung"
         },
         // {
         //   title: "Blush",
@@ -120,7 +124,7 @@ export default {
           scent: "Orangenblüten, herb und süss zugleich",
           superfat: "6%",
           vegan: "Vegan",
-          info: "mit weisser Tonerde"
+          info: "mit Shea- und Kakaobutter sowie rosa Tonerde"
         },
         {
           title: "Juicy Lavender",
@@ -131,7 +135,8 @@ export default {
           scent: "Lavendel und Zitrone",
           superfat: "6%",
           vegan: "Vegan",
-          info: "100% natürliche Zutaten"
+          info:
+            "mit Sheabutter und Weizenkeimöl. Zutaten 100% aus natürlichem Ursprung"
         },
         {
           title: "Salted Grapefruit",
@@ -140,7 +145,7 @@ export default {
             'Handgemachte Seife "Salted Grapefruit" mit Duft nach Pink Grapefruit',
           scent: "Pink Grapefruit, Ingwer, Pfeffer, frisch",
           superfat: "8%",
-          info: "Mit Milch"
+          info: "Milchseife mit Sheabutter und Mandelöl"
         },
         {
           title: "Camouflage",
@@ -149,7 +154,8 @@ export default {
             'Handgemachte Seife "Camouflage" mit maskulinem Duft nach Lorbeer, Tannennadel, Bergamotte, Tabak',
           scent: "Lorbeer, Tannennadel, Bergamotte, Tabak, maskulin",
           superfat: "8%",
-          vegan: "Vegan"
+          vegan: "Vegan",
+          info: "mit Mangobutter und Avocadoöl"
         },
         {
           title: "Romanoff",
@@ -157,7 +163,8 @@ export default {
           alt: 'Handgemachte Seife "Romanoff"',
           scent: "Erdbeer und Vanille",
           superfat: "6%",
-          vegan: "Vegan"
+          vegan: "Vegan",
+          info: "mit Avocado- und Mandelöl"
         },
         {
           title: "Lemonade",
@@ -166,7 +173,7 @@ export default {
           scent: "Zitronenlimonade",
           superfat: "6%",
           vegan: "Vegan",
-          info: "Mit Meersalz"
+          info: "Mit Meersalz, Aprikosenkern- und Avocadoöl"
         },
         {
           title: "Chuck Raspberry",
@@ -174,7 +181,8 @@ export default {
           alt: 'Handgemachte Seife "Chuck Raspberry"',
           scent: "Himbeere",
           superfat: "4%",
-          vegan: "Vegan"
+          vegan: "Vegan",
+          info: "Kokosmilchseife mit Reiskeimöl und Macadamiaöl"
         },
         // {
         //   title: "Fresh Linen",
@@ -192,7 +200,8 @@ export default {
           alt: 'Handgemachte Seife "One in a Melon" mit Duft nach Wassermelone',
           superfat: "7%",
           vegan: "Vegan",
-          seasonal: "Sommer Special"
+          seasonal: "Sommer Special",
+          info: "mit Shea- und Kakaobutter"
         },
         {
           title: "Cherry Flower Power",
@@ -202,7 +211,7 @@ export default {
           scent: "Kirschblüten, blumig",
           superfat: "6%",
           vegan: "Vegan",
-          info: "Mit weisser Tonerde"
+          info: "mit Sheabutter, Kakaobutter und reinigender weisser Tonerde"
         },
         {
           title: "Christmas Spice",
@@ -211,7 +220,8 @@ export default {
           superfat: "6%",
           alt: 'Handgemachte Seife "Christmas Spice" mit Weihnachtlichem Duft',
           vegan: "Vegan",
-          seasonal: "Winter Special"
+          seasonal: "Winter Special",
+          info: "Zutaten aus 100% natürlichem Ursprung"
         },
         {
           title: "Cinnamon Bun",
@@ -221,7 +231,8 @@ export default {
           alt:
             "Handgemachte Cinnamon Bun Seife mit Duftnote Zimt und Zucker, süss und würzig",
           vegan: "Vegan",
-          seasonal: "Herbst/Winter Special"
+          seasonal: "Herbst/Winter Special",
+          info: "Mit Mandel- und Avocadoöl"
         }
       ],
       settings: {
