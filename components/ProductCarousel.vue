@@ -54,16 +54,7 @@ export default {
             "Handgemachte Blueberry Seife mit Duftnote Zimt und Zucker, süss und würzig ",
           vegan: "Vegan"
         },
-        {
-          title: "Cinnamon Bun",
-          image: require("~/assets/soaps/handgemachte-seife-cinnamon-bun.jpg"),
-          scent: "Zimt und Zucker, süss und würzig",
-          superfat: "6%",
-          alt:
-            "Handgemachte Cinnamon Bun Seife mit Duftnote Zimt und Zucker, süss und würzig",
-          vegan: "Vegan",
-          seasonal: "Herbst/Winter Special"
-        },
+
         {
           title: "Milli Vanilla",
           image: require("~/assets/soaps/handgemachte-seife-milli-vanilla.jpg"),
@@ -72,15 +63,7 @@ export default {
           alt: 'Handgemachte Seife "Milli Vanilla" mit Duft nach Vanille',
           vegan: "Vegan"
         },
-        {
-          title: "Christmas Spice",
-          image: require("~/assets/soaps/handgemachte-seife-christmas-spice.jpg"),
-          scent: "Weihnachtsgewürze- Orange, Zimt, Nelken",
-          superfat: "6%",
-          alt: 'Handgemachte Seife "Christmas Spice" mit Weihnachtlichem Duft',
-          vegan: "Vegan",
-          seasonal: "Winter Special"
-        },
+
         {
           title: "Pecan Pie",
           image: require("~/assets/soaps/handgemachte-seife-pecan-pie.jpg"),
@@ -220,6 +203,25 @@ export default {
           superfat: "6%",
           vegan: "Vegan",
           info: "Mit weisser Tonerde"
+        },
+        {
+          title: "Christmas Spice",
+          image: require("~/assets/soaps/handgemachte-seife-christmas-spice.jpg"),
+          scent: "Weihnachtsgewürze- Orange, Zimt, Nelken",
+          superfat: "6%",
+          alt: 'Handgemachte Seife "Christmas Spice" mit Weihnachtlichem Duft',
+          vegan: "Vegan",
+          seasonal: "Winter Special"
+        },
+        {
+          title: "Cinnamon Bun",
+          image: require("~/assets/soaps/handgemachte-seife-cinnamon-bun.jpg"),
+          scent: "Zimt und Zucker, süss und würzig",
+          superfat: "6%",
+          alt:
+            "Handgemachte Cinnamon Bun Seife mit Duftnote Zimt und Zucker, süss und würzig",
+          vegan: "Vegan",
+          seasonal: "Herbst/Winter Special"
         }
       ],
       settings: {
