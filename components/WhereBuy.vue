@@ -12,7 +12,7 @@
 
         <li class="mt-4">
           <a target="_blank" href="https://www.breitsch-lädeli.ch/"
-            >Im Breitsch Lädeli in Bern
+            >Im Breitsch Lädeli in Bern (nur Body Lotions)
           </a>
         </li>
 
@@ -52,6 +52,12 @@
         <li class="mt-4">
           <a target="_blank" href="https://fraeuleinfroehli.ch/">
             In den Geschenkboxen von Fräulein Fröhlich</a
+          >
+        </li>
+
+        <li class="mt-4">
+          <a target="_blank" href="https://www.elsalon.ch"
+            >Im El Salón Coiffeur in Auenstein</a
           >
         </li>
 
