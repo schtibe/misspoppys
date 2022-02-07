@@ -17,10 +17,21 @@
         <meta itemprop="description" :content="product.alt" />
 
         <div class="flex flex-col items-center justify-center ">
-          <img :src="product.image" :alt="product.alt" />
+          <img
+            :src="product.image"
+            :alt="product.alt"
+            :class="{
+              filter: product.soldOut,
+              'grayscale-100': product.soldOut
+            }"
+          />
+
           <h2 class="mt-4">{{ product.title }}</h2>
           <div v-if="product.seasonal" class="md:mb-4">
             ({{ product.seasonal }})
+          </div>
+          <div v-if="product.soldOut" class="md:mb-2">
+            <em>Ausverkauft!</em>
           </div>
           <div v-else class="md:mb-4">&nbsp;</div>
           <product-details class="w-full md:pl-4" :product="product" />
@@ -221,7 +232,8 @@ export default {
           alt: 'Handgemachte Seife "Christmas Spice" mit Weihnachtlichem Duft',
           vegan: "Vegan",
           seasonal: "Winter Special",
-          info: "Zutaten aus 100% natürlichem Ursprung"
+          info: "Zutaten aus 100% natürlichem Ursprung",
+          soldOut: true
         },
         {
           title: "Cinnamon Bun",
@@ -232,7 +244,8 @@ export default {
             "Handgemachte Cinnamon Bun Seife mit Duftnote Zimt und Zucker, süss und würzig",
           vegan: "Vegan",
           seasonal: "Herbst/Winter Special",
-          info: "Mit Mandel- und Avocadoöl"
+          info: "Mit Mandel- und Avocadoöl",
+          soldOut: true
         }
       ],
       settings: {
